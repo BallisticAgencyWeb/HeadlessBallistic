@@ -102,15 +102,6 @@ export const productPageQuery = graphql`
           url_thumbnail
           url_standard
         }
-        variants {
-          product_id
-          id
-          option_values {
-            label
-            option_display_name
-          }
-          sku
-        }
       }
     }
     markdownRemark(id: { eq: $id }) {
