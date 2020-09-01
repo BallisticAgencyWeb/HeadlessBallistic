@@ -2,14 +2,15 @@
 
 Note: This starter uses Gatsby v2.
 
-## Prerequisites
+
+## Prerequisites:
 
 - Node (v8.2.0 or higher)
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 - [Netlify CLI](https://www.netlify.com/docs/cli/)
 - [A BigCommerce Instance with API keys](https://developer.bigcommerce.com/api-docs)
 
-## Setting up BigCommerce
+## Setting up BigCommerce:
 
 The BigCommerce source plugin relies on API Keys. In this starter we are using the node project `dotenv` to access these variables. Make a copy of the `SAMPLE.env` file and fill in the variables from your [BigCommerce API user details](https://developer.bigcommerce.com/api-docs/getting-started/authentication#authentication_getting-api-credentials).
 
