@@ -71,36 +71,47 @@ const Navbar = class extends React.Component {
             </div>
             <div className="hidden md:flex-1 md:flex md:items-center md:justify-between md:space-x-12">
               <nav className="flex space-x-10">
-                
                 {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
-                <Link 
+                <Link
                   className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/about"
                 >
                   About
                 </Link>
-                
-                <Link 
+
+                <Link
                   className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/products"
                 >
                   Products
                 </Link>
-                <Link 
+                <Link
                   className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/blog"
                 >
                   Blog
                 </Link>
-                <Link 
-                  className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
-                  to="/about"
-                >
-                  Work
-                </Link>
+                <CartContext.Consumer>
+                  {(value) => {
+                    return (
+                      <Link
+                        className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 menu-item-bigcommerce-cart"
+                        to="/cart"
+                      >
+                        Cart
+                        {value &&
+                          value.state.cart &&
+                          value.state.cart.numberItems > 0 && (
+                            <span className="bigcommerce-cart__item-count full">
+                              {value.state.cart.numberItems}
+                            </span>
+                          )}
+                      </Link>
+                    );
+                  }}
+                </CartContext.Consumer>
               </nav>
               <div className="flex items-center space-x-8">
-                
                 <span className="inline-flex rounded-md shadow-sm">
                   <Link
                     to="/contact"
@@ -652,15 +663,17 @@ To: "opacity-100 scale-100"
 From: "opacity-100 scale-100"
 To: "opacity-0 scale-95"
   */}
-        <div className={`${this.state.active ? 'block' : 'hidden'} absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden`}>
+        <div
+          className={`${
+            this.state.active ? "block" : "hidden"
+          } absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden`}
+        >
           <div className="rounded-lg shadow-lg">
             <div className="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50">
               <div className="pt-5 pb-6 px-5 space-y-6 sm:space-y-8 sm:pb-8">
                 <div className="flex items-center justify-between">
                   <div>
-                    <Link
-                      to="/"
-                    >
+                    <Link to="/">
                       <img
                         className="h-8 w-auto"
                         src="https://cdn11.bigcommerce.com/s-b7clv5baib/images/stencil/500x100/ballistic-02_1582926268__09978.original.png"
@@ -740,7 +753,7 @@ To: "opacity-0 scale-95"
                         </div>
                       </Link>
                       <Link
-                        to="/blog"
+                        to="/cart"
                         className="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
@@ -759,11 +772,10 @@ To: "opacity-0 scale-95"
                           </svg>
                         </div>
                         <div className="text-base leading-6 font-medium text-gray-900">
-                          Blog
+                          Cart
                         </div>
                       </Link>
                     </div>
-                    
                   </nav>
                 </div>
               </div>
@@ -775,12 +787,12 @@ To: "opacity-0 scale-95"
                   >
                     Work
                   </a>
-                  <a
-                    href="#"
+                  <Link
+                    to="/blog"
                     className="rounded-md text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
                   >
-                    Team
-                  </a>
+                    Blog
+                  </Link>
                   <a
                     href="#"
                     className="rounded-md text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
