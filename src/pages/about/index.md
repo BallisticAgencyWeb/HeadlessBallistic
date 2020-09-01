@@ -1,7 +1,7 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About Us
+title: "About Us #3"
 image: /img/bags-commerce-hanging.jpg
 ---
 ### Creatively sourced for those that care
