@@ -12,6 +12,7 @@
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^4.1.21",
+    "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-purgecss": "^4.0.0",
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-sass": "^2.0.7",
@@ -36,6 +37,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "set-cookie-parser": "^2.3.5",
+    "tailwindcss": "^1.7.6",
     "uuid": "^3.2.1"
   },
   "keywords": [

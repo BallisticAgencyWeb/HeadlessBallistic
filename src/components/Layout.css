@@ -1,3 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 /* BigCommerce: Global CSS */
 .u-bc-hidden {
   display: none !important;
