@@ -154,10 +154,6 @@ export const query = graphql`
         variants {
           product_id
           id
-          option_values {
-            label
-            option_display_name
-          }
           sku
         }
       }
