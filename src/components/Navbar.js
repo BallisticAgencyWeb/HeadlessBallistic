@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
             <div>
               <Link to="/" className="flex">
                 <img
-                  className="h-8 w-auto sm:h-10"
+                  className="h-10 w-auto sm:h-16"
                   src="https://cdn11.bigcommerce.com/s-b7clv5baib/images/stencil/500x100/ballistic-02_1582926268__09978.original.png"
                   alt="Workflow"
                 />
@@ -115,7 +115,7 @@ const Navbar = class extends React.Component {
                 <span className="inline-flex rounded-md shadow-sm">
                   <Link
                     to="/contact"
-                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
                   >
                     Contact
                   </Link>

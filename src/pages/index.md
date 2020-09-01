@@ -1,15 +1,14 @@
 ---
 templateKey: index-page
 title: The world brought to your doorstep
-subtitle: Your one-stop shop for unique products you'll love
 image: /img/city-background.jpg
-heading: The world brought to your doorstep
+heading: Only 1% of your visitors actually make a purchase.
+subheading: >
+  Let's fix that. We have proven methods for optimizing your site: improving speed, design, usability, personalization, and much more.
 mainpitch:
-  title: What is My Store?
+  title: Why Optimize Your eCommerce?
   description: >
-    My Store is a journey waiting to be had, from our journeys in the past. An 
-    ever changing collection of products that are meant to help broaden your 
-    daily life through the creation of others.
+    You’ve worked hard to push your eCommerce business beyond $250k/month. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher to give you the most revenue possible.
 bigimage:
   image: /img/bazaar-home.jpg
   alt: Bazaar

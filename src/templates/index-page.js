@@ -3,14 +3,14 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import PhotoGrid from "../components/PhotoGrid";
 import BlogItem from "../components/BlogItem";
+import Customers from "../components/Customers";
 
 export const IndexPageTemplate = ({
   image,
   title,
-  subtitle,
   heading,
+  subheading,
   mainpitch,
   bigimage,
   description,
@@ -91,92 +91,229 @@ export const IndexPageTemplate = ({
         <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
           <div className="text-center">
             <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Data to enrich your
-              <br className="xl:hidden" />
-              <span className="text-indigo-600">online business</span>
+              {heading}
             </h2>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              {subheading}
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
-                <a
-                  href="#"
+                <Link
+                  to="/products"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
-                  Get started
-                </a>
+                  View Products
+                </Link>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
-                  Live demo
-                </a>
+                  About Us
+                </Link>
               </div>
             </div>
           </div>
         </main>
       </div>
     </div>
-
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+    <div className="relative pt-0">
+      <main className="mx-auto max-w-screen-xl px-4  sm:px-6">
+        <Customers />
+      </main>
+    </div>
+    <div className="relative pt-0">
+      <main className="mx-auto max-w-screen-xl px-4  sm:px-6">
+        <div className="py-16 bg-gray-50 overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-base max-w-prose mx-auto lg:max-w-none">
+              <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+                eCommerce
+              </p>
+              <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                {mainpitch.title}
+              </h1>
+            </div>
+            <div className="relative z-10 text-base max-w-prose mx-auto mb-8 lg:max-w-5xl lg:mx-0 lg:pr-72">
+              <p className="text-lg text-gray-500 leading-7">
+                {mainpitch.description}
+              </p>
+            </div>
+            <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+              <div className="relative z-10 mb-12 lg:mb-0">
+                <div className="mb-10 prose text-gray-500 mx-auto lg:max-w-none">
+                  <p>
+                    Sollicitudin tristique eros erat odio sed vitae, consequat
+                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
+                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                  </p>
+                  <ul>
+                    <li>Quis elit egestas venenatis mattis dignissim.</li>
+                    <li>
+                      Cras cras lobortis vitae vivamus ultricies facilisis
+                      tempus.
+                    </li>
+                    <li>
+                      Orci in sit morbi dignissim metus diam arcu pretium.
+                    </li>
+                  </ul>
+                  <p>
+                    Rhoncus nisl, libero egestas diam fermentum dui. At quis
+                    tincidunt vel ultricies. Vulputate aliquet velit faucibus
+                    semper. Pellentesque in venenatis vestibulum consectetur
+                    nibh id. In id ut tempus egestas. Enim sit aliquam nec, a.
+                    Morbi enim fermentum lacus in. Viverra.
+                  </p>
+                  <h2>We’re here to help</h2>
+                  <p>
+                    Tincidunt integer commodo, cursus etiam aliquam neque, et.
+                    Consectetur pretium in volutpat, diam. Montes, magna cursus
+                    nulla feugiat dignissim id lobortis amet. Laoreet sem est
+                    phasellus eu proin massa, lectus. Diam rutrum posuere donec
+                    ultricies non morbi. Mi a platea auctor mi.
+                  </p>
+                </div>
+                <div className="flex text-base max-w-prose mx-auto lg:max-w-none">
+                  <div className="rounded-md shadow">
+                    <a
+                      href="#"
+                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out"
+                    >
+                      Contact sales
+                    </a>
+                  </div>
+                  <div className="rounded-md shadow ml-4">
+                    <a
+                      href="#"
+                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out"
+                    >
+                      Learn more
+                    </a>
                   </div>
                 </div>
-
-                <section className="section">
-                  <div className="container has-text-centered">
-                    <div className="block">
-                      <img src={bigimage.image.publicURL} alt={bigimage.alt} />
+              </div>
+              <div className="relative text-base max-w-prose mx-auto lg:max-w-none">
+                <svg
+                  className="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20"
+                  width={404}
+                  height={384}
+                  fill="none"
+                  viewBox="0 0 404 384"
+                >
+                  <defs>
+                    <pattern
+                      id="bedc54bc-7371-44a2-a2bc-dc68d819ae60"
+                      x={0}
+                      y={0}
+                      width={20}
+                      height={20}
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x={0}
+                        y={0}
+                        width={4}
+                        height={4}
+                        className="text-gray-200"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width={404}
+                    height={384}
+                    fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)"
+                  />
+                </svg>
+                <blockquote className="relative bg-white rounded-lg shadow-lg">
+                  <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
+                    <img
+                      src="https://tailwindui.com/img/logos/workcation-color.svg"
+                      alt="Workcation"
+                      className="h-8"
+                    />
+                    <div className="relative text-lg text-gray-700 leading-7 font-medium mt-8">
+                      <p className="relative">
+                        Tincidunt integer commodo, cursus etiam aliquam neque,
+                        et. Consectetur pretium in volutpat, diam. Montes, magna
+                        cursus nulla feugiat dignissim id lobortis amet. Laoreet
+                        sem est phasellus eu proin massa, lectus.
+                      </p>
                     </div>
-
-                    <PhotoGrid gridItems={intro.blurbs} />
-
-                    <h4 className="title is-spaced is-4">{intro.heading}</h4>
-                    <p className="subtitle">{intro.description}</p>
                   </div>
-                </section>
-
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <BlogItem post={post} columnWidth="is-12" />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
+                  <cite className="flex items-center sm:items-start bg-indigo-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+                    <div className="rounded-full border-2 border-white mr-4 sm:-mt-15 sm:mr-6">
+                      <img
+                        className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-indigo-300"
+                        src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <span className="text-indigo-300 font-semibold leading-6">
+                      <strong className="text-white font-semibold">
+                        Judith Black
+                      </strong>
+                      <br className="sm:hidden" />
+                      CEO at Workcation
+                    </span>
+                  </cite>
+                </blockquote>
               </div>
             </div>
           </div>
         </div>
+      </main>
+    </div>
+
+    <div className="relative bg-gray-800">
+      <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+        <img
+          className="w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6875F5&sat=-100&blend-mode=multiply"
+          alt="Support team"
+        />
       </div>
-    </section>
+      <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div className="md:ml-auto md:w-1/2 md:pl-10">
+          <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
+            BigCommerce Rock
+          </div>
+          <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+            We built our site on BigCommerce
+          </h2>
+          <p className="mt-3 text-lg leading-7 text-gray-300">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis. 
+          </p>
+          <div className="mt-8">
+            <div className="inline-flex rounded-md shadow">
+              <Link
+                to="/products"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+              >
+                Visit our product catalog
+                <svg
+                  className="-mr-1 ml-3 h-5 w-5 text-gray-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  subtitle: PropTypes.string,
   heading: PropTypes.string,
+  subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   bigimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   description: PropTypes.string,
@@ -194,8 +331,8 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        subtitle={frontmatter.subtitle}
         heading={frontmatter.heading}
+        subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         bigimage={frontmatter.bigimage}
         description={frontmatter.description}
@@ -224,7 +361,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        subtitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -233,6 +369,7 @@ export const pageQuery = graphql`
           }
         }
         heading
+        subheading
         mainpitch {
           title
           description
@@ -270,7 +407,7 @@ export const pageQuery = graphql`
         fields: [frontmatter___featuredpost, frontmatter___date]
       }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-      limit: 1
+      limit: 3
     ) {
       edges {
         node {
