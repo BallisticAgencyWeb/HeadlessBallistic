@@ -1,56 +1,35 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import React from "react";
+import { Link } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 class BlogItem extends React.Component {
   render() {
     const post = this.props.post;
-    const columnWidth = this.props.columnWidth ? this.props.columnWidth : 'is-6';
+    const columnWidth = this.props.columnWidth
+      ? this.props.columnWidth
+      : "is-6";
 
     return (
-      <div className={`is-parent column ${columnWidth}`} key={post.id}>
-        <article
-          className={`blog-list-item tile is-child box notification ${
-            post.frontmatter.featuredpost ? 'is-featured' : ''
-          }`}
-        >
-          <header>
-            {post.frontmatter.featuredimage ? (
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: post.frontmatter.featuredimage,
-                    alt: `featured image thumbnail for post ${
-                      post.title
-                    }`,
-                  }}
-                />
-              </div>
-            ) : null}
-            <p className="post-meta">
-              <Link
-                className="title has-text-primary is-size-4"
-                to={post.fields.slug}
-              >
-                {post.frontmatter.title}
-              </Link>
-              <span> &bull; </span>
-              <span className="subtitle is-size-5 is-block">
-                {post.frontmatter.date}
-              </span>
-            </p>
-          </header>
-          <p>
-            {post.excerpt}
-            <br />
-            <br />
-            <Link className="button" to={post.fields.slug}>
-              Keep Reading →
-            </Link>
-          </p>
-        </article>
-      </div>
-    )
+      <article>
+        <p class="text-sm leading-5 text-gray-500">{post.frontmatter.date}</p>
+
+        <Link class="block" to={post.fields.slug}>
+          <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+            {post.frontmatter.title}
+          </h3>
+
+          <p class="mt-3 text-base leading-6 text-gray-500">{post.excerpt}</p>
+        </Link>
+        <div class="mt-3">
+          <Link
+            to={post.fields.slug}
+            class="text-base leading-6 font-semibold text-indigo-600 hover:text-indigo-500 transition ease-in-out duration-150"
+          >
+            Read full story
+          </Link>
+        </div>
+      </article>
+    );
   }
 }
 

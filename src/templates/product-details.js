@@ -4,6 +4,8 @@ import { graphql } from 'gatsby';
 import AddToCartButton from '../components/bigcommerce/AddToCartButton';
 import ProductPrices from '../components/bigcommerce/ProductPrices';
 import Layout from '../components/Layout';
+import { HTMLContent } from '../components/Content';
+import PageHeading from '../components/PageHeading';
 
 export default ({
   data: {
@@ -43,20 +45,8 @@ export default ({
 
   return (
     <Layout>
+      <PageHeading title={name} />
       <div className="content">
-        <div className="has-text-centered margin-top-0">
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow:
-                '0.5rem 0 0 rgba(0, 0, 0, 1), -0.5rem 0 0 rgba(0, 0, 0, 1)',
-              backgroundColor: 'rgba(0, 0, 0, 1)',
-              color: 'white',
-              padding: '1rem'
-            }}>
-            {name}
-          </h1>
-        </div>
         <section className="section">
           <div className="bc-product-single">
             <section className="bc-product-single__top">
@@ -110,9 +100,9 @@ export default ({
               <h4 className="bc-single-product__section-title">
                 Product Description
               </h4>
-              <div
-                className="bc-product__description"
-                dangerouslySetInnerHTML={{ __html: description }}></div>
+              <div className="bc-product__description">
+                  <HTMLContent content={description} />
+              </div>
             </section>
             <section className="bc-single-product__specifications">
               <h4 className="bc-single-product__section-title">

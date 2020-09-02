@@ -3,19 +3,17 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import BlogItem from "../components/BlogItem";
 import Customers from "../components/Customers";
+import Content, { HTMLContent } from "../components/Content";
+import BlogRoll from "../components/BlogRoll";
+import BlogItem from "../components/BlogItem";
 
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
   mainpitch,
-  bigimage,
-  description,
-  intro,
-  post,
+  introcontent,
+  metrics,
+  content,
+  posts,
 }) => (
   <div>
     <div className="relative bg-gray-50 overflow-hidden">
@@ -91,10 +89,10 @@ export const IndexPageTemplate = ({
         <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
           <div className="text-center">
             <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              {heading}
+              {mainpitch.title}
             </h2>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              {subheading}
+              {mainpitch.subtitle}
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
@@ -119,60 +117,31 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <div className="relative pt-0">
-      <main className="mx-auto max-w-screen-xl px-4  sm:px-6">
+      <main className="mx-auto max-w-7xl px-4 sm:px-6">
         <Customers />
       </main>
     </div>
     <div className="relative pt-0">
-      <main className="mx-auto max-w-screen-xl px-4  sm:px-6">
-        <div className="py-16 bg-gray-50 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-screen-xl px-4 sm:px-6">
+        <div className="py-16 overflow-hidden">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-                eCommerce
+                {introcontent.subtitle}
               </p>
               <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                {mainpitch.title}
+                {introcontent.title}
               </h1>
             </div>
             <div className="relative z-10 text-base max-w-prose mx-auto mb-8 lg:max-w-5xl lg:mx-0 lg:pr-72">
               <p className="text-lg text-gray-500 leading-7">
-                {mainpitch.description}
+                {introcontent.description}
               </p>
             </div>
             <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
               <div className="relative z-10 mb-12 lg:mb-0">
                 <div className="mb-10 prose text-gray-500 mx-auto lg:max-w-none">
-                  <p>
-                    Sollicitudin tristique eros erat odio sed vitae, consequat
-                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
-                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
-                  </p>
-                  <ul>
-                    <li>Quis elit egestas venenatis mattis dignissim.</li>
-                    <li>
-                      Cras cras lobortis vitae vivamus ultricies facilisis
-                      tempus.
-                    </li>
-                    <li>
-                      Orci in sit morbi dignissim metus diam arcu pretium.
-                    </li>
-                  </ul>
-                  <p>
-                    Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                    tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                    semper. Pellentesque in venenatis vestibulum consectetur
-                    nibh id. In id ut tempus egestas. Enim sit aliquam nec, a.
-                    Morbi enim fermentum lacus in. Viverra.
-                  </p>
-                  <h2>We’re here to help</h2>
-                  <p>
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                    Consectetur pretium in volutpat, diam. Montes, magna cursus
-                    nulla feugiat dignissim id lobortis amet. Laoreet sem est
-                    phasellus eu proin massa, lectus. Diam rutrum posuere donec
-                    ultricies non morbi. Mi a platea auctor mi.
-                  </p>
+                  <HTMLContent content={content} />
                 </div>
                 <div className="flex text-base max-w-prose mx-auto lg:max-w-none">
                   <div className="rounded-md shadow">
@@ -266,6 +235,70 @@ export const IndexPageTemplate = ({
       </main>
     </div>
 
+    <div className="bg-gray-800">
+      <div className="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
+            {metrics.title}
+          </h2>
+          <p className="mt-3 text-xl leading-7 text-indigo-200 sm:mt-4">
+            {metrics.subtitle}
+          </p>
+        </div>
+        <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+          <div className="flex flex-col">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+              {metrics.metric1.label}
+            </dt>
+            <dd className="order-1 text-5xl leading-none font-extrabold text-white">
+              {metrics.metric1.value}
+            </dd>
+          </div>
+          <div className="flex flex-col mt-10 sm:mt-0">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+              {metrics.metric2.label}
+            </dt>
+            <dd className="order-1 text-5xl leading-none font-extrabold text-white">
+              {metrics.metric2.value}
+            </dd>
+          </div>
+          <div className="flex flex-col mt-10 sm:mt-0">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+              {metrics.metric3.label}
+            </dt>
+            <dd className="order-1 text-5xl leading-none font-extrabold text-white">
+              {metrics.metric3.value}
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <div className="relative pt-16 pb-16 max-w-screen-xl px-4 sm:px-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="md:flex md:items-center md:justify-between">
+          <div className="flex-1 min-w-0">
+            <h2 className="text-xl font-bold leading-7 text-gray-900 sm:text-3xl sm:leading-9 sm:truncate">
+              From The Blog
+            </h2>
+          </div>
+          <div className="mt-4 flex md:mt-0 md:ml-4">
+            <Link
+              to="/blog"
+              className="inline-block align-baseline font-bold text-base text-blue-500 hover:text-blue-800"
+            >
+              View Blog →
+            </Link>
+          </div>
+        </div>
+        <div className="border-t-2 border-gray-100 pt-10 mt-6">
+          <div className="grid gap-16 lg:grid-cols-2 lg:col-gap-5 lg:row-gap-12">
+            {posts && posts.map(({ node: post }) => <BlogItem post={post} />)}
+          </div>
+        </div>
+      </main>
+    </div>
+
     <div className="relative bg-gray-800">
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
@@ -283,7 +316,10 @@ export const IndexPageTemplate = ({
             We built our site on BigCommerce
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-300">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
+            tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
+            et fermentum, augue. Aliquet amet volutpat quisque ut interdum
+            tincidunt duis.
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
@@ -310,34 +346,26 @@ export const IndexPageTemplate = ({
 );
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  bigimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  post: PropTypes.object,
+  introcontent: PropTypes.object,
+  posts: PropTypes.object,
+  content: PropTypes.string,
+  metrics: PropTypes.object
 };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        bigimage={frontmatter.bigimage}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-        post={data.allMarkdownRemark.edges[0].node}
+        introcontent={frontmatter.introcontent}
+        metrics={frontmatter.metrics}
+        content={html}
+        posts={data.allMarkdownRemark.edges}
       />
     </Layout>
   );
@@ -359,45 +387,59 @@ export default IndexPage;
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
         mainpitch {
+          title
+          subtitle
+        }
+        introcontent {
+          subtitle
           title
           description
         }
-        bigimage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            publicURL
+        metrics {
+          title
+          subtitle
+          metric1 {
+            label
+            value
           }
-          alt
+          metric2 {
+            label
+            value
+          }
+          metric3 {
+            label
+            value
+          }
         }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
+      }
+    }
+    allBigCommerceProducts {
+      nodes {
+        id
+        brand_id
+        name
+        sku
+        price
+        calculated_price
+        retail_price
+        sale_price
+        map_price
+        bigcommerce_id
+        custom_url {
+          url
+        }
+        images {
+          url_thumbnail
+          url_standard
+        }
+        variants {
+          product_id
+          id
+          sku
         }
       }
     }
@@ -407,7 +449,7 @@ export const pageQuery = graphql`
         fields: [frontmatter___featuredpost, frontmatter___date]
       }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-      limit: 3
+      limit: 2
     ) {
       edges {
         node {

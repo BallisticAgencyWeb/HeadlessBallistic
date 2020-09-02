@@ -73,20 +73,20 @@ const Navbar = class extends React.Component {
               <nav className="flex space-x-10">
                 {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
                 <Link
-                  className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                  className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/about"
                 >
                   About
                 </Link>
 
                 <Link
-                  className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                  className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/products"
                 >
                   Products
                 </Link>
                 <Link
-                  className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                  className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/blog"
                 >
                   Blog
@@ -95,7 +95,7 @@ const Navbar = class extends React.Component {
                   {(value) => {
                     return (
                       <Link
-                        className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 menu-item-bigcommerce-cart"
+                        className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                         to="/cart"
                       >
                         Cart
