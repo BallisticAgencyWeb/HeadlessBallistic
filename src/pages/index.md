@@ -8,12 +8,17 @@ introcontent:
   subtitle: eCommerce
   title: Why Optimize Your site?
   description: >
-    You’ve worked hard to push your eCommerce business beyond $250k/month. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher to give you the most revenue possible. 
+    You’ve worked hard to push your eCommerce business beyond $250k/month. We
+    will work just as hard to help you overcome the roadblocks you might not be
+    anticipating. We will bring more shoppers to your website, increase the
+    percentage of people that buy from you, and push your average order value
+    higher to give you the most revenue possible. 
 metrics:
-  title: Proof is in the pudding
-  subtitle: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
-  metric1: 
-    label: AVG Conversion Rate 
+  title: The proof is in the pudding.
+  subtitle: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
+    repellat laudantium.
+  metric1:
+    label: AVG Conversion Rate
     value: +14%
   metric2:
     label: AVG Sessions
@@ -21,6 +26,7 @@ metrics:
   metric3:
     label: AVG Revenue
     value: +19.8%
+content: Something something
 ---
 
 Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
