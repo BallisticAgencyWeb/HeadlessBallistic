@@ -122,7 +122,7 @@ export const IndexPageTemplate = ({
       </main>
     </div>
     <div className="relative pt-0">
-      <main className="mx-auto max-w-screen-xl px-4 sm:px-6">
+      <main className="mx-auto">
         <div className="py-16 overflow-hidden">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
@@ -274,7 +274,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
 
-    <div className="relative pt-16 pb-16 max-w-screen-xl px-4 sm:px-6">
+    <div className="relative py-16">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex-1 min-w-0">
@@ -414,32 +414,6 @@ export const pageQuery = graphql`
             label
             value
           }
-        }
-      }
-    }
-    allBigCommerceProducts {
-      nodes {
-        id
-        brand_id
-        name
-        sku
-        price
-        calculated_price
-        retail_price
-        sale_price
-        map_price
-        bigcommerce_id
-        custom_url {
-          url
-        }
-        images {
-          url_thumbnail
-          url_standard
-        }
-        variants {
-          product_id
-          id
-          sku
         }
       }
     }
