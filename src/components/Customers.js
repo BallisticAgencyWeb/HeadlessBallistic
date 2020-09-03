@@ -6,7 +6,7 @@ function Customers() {
     <div className="bg-white">
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <p className="text-center text-base leading-6 font-semibold uppercase text-gray-600 tracking-wider">
-          Trusted by over 5 very awesome businesses
+          Trusted by industry leaders:
         </p>
         <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6">
           <div className="col-span-1 flex justify-center">
