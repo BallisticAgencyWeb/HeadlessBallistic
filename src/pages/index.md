@@ -8,11 +8,7 @@ introcontent:
   subtitle: Our Process
   title: Facts are better than opinions
   description: >
-    You’ve worked hard to push your eCommerce business beyond $250k/month. We
-    will work just as hard to help you overcome the roadblocks you might not be
-    anticipating. We will bring more shoppers to your website, increase the
-    percentage of people that buy from you, and push your average order value
-    higher to give you the most revenue possible. 
+    We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008. 
 metrics:
   title: The proof is in the pudding.
   subtitle: "Since hiring Ballistic Agency, our clients have seen on average:"
