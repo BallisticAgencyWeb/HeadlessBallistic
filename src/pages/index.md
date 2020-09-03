@@ -34,5 +34,5 @@ Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies
 
 ## We’re here to help
 
-Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+You’ve worked hard to get your eCommerce business to where you are today. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher for maximum revenue.
 
