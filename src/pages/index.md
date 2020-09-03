@@ -3,10 +3,10 @@ templateKey: index-page
 title: Optimized eCommerce - Ballistic Agency
 mainpitch:
   title: Optimized eCommerce
-  subtitle: We know what you need and it's not another opinion.
+  subtitle: We know what you need, and it's not another opinion.
 introcontent:
-  subtitle: Services
-  title: Why Optimize Your site?
+  subtitle: Our Process
+  title: Facts are better than opinions
   description: >
     You’ve worked hard to push your eCommerce business beyond $250k/month. We
     will work just as hard to help you overcome the roadblocks you might not be
