@@ -24,13 +24,11 @@ metrics:
 content: .
 ---
 
-Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+The facts are that most businesses need to improve in three areas.
 
-* Quis elit egestas venenatis mattis dignissim.
-* Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-* Orci in sit morbi dignissim metus diam arcu pretium.
-
-Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+1. Conversion rate optimization (CRO). CRO makes sure that your customers that are on your website can find what they're looking for, make a purchasing decision, and go all the way through the checkout process without having any problems. We want to make that as easy and painless as possible. 
+2. SEO, or search engine optimization. that is where we make your site more visible on search engines like Google. Most websites are seeing 60, 70, and even 80% of their website traffic coming from Google and other search engines.
+3. Email marketing. Believe it or not, email marketing is still huge in the e-commerce world. It's one of the most profitable ways to get your customers to come back and make another purchase. But it's so much more than just uploading a pretty picture to Mailchimp and hitting send. It's more about relevance, sending the right email to the right people at the right time, segmentation, deliverability, and personalization.
 
 ## We’re here to help
 
