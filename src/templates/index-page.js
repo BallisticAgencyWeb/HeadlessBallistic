@@ -310,16 +310,13 @@ export const IndexPageTemplate = ({
       <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
-            BigCommerce Rock
+            Empathy works
           </div>
           <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
-            We built our site on BigCommerce
+            How we understand our clients
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-            tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
-            et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-            tincidunt duis.
+            We’re not only an eCommerce agency, we’re a manufacturer that sells our products online. We labor over our search engine rankings, we advertise, we manufacture products and maintain stock levels, we pull inventory, we package and ship products, and we handle payments, returns, refunds, and more. Why? One word: empathy. We wanted to understand our clients so we started doing what they do.
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">

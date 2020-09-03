@@ -17,13 +17,13 @@ metrics:
   title: The proof is in the pudding.
   subtitle: "Since hiring Ballistic Agency:"
   metric1:
-    label: AVG Conversion Rate
+    label: Increased Conversion Rate
     value: +14%
   metric2:
-    label: AVG Sessions
+    label: Increased Sessions
     value: +11.6%
   metric3:
-    label: AVG Revenue
+    label: Increased Revenue
     value: +19.8%
 content: .
 ---
