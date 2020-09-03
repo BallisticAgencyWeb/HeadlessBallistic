@@ -15,7 +15,7 @@ introcontent:
     higher to give you the most revenue possible. 
 metrics:
   title: The proof is in the pudding.
-  subtitle: "Since hiring Ballistic Agency:"
+  subtitle: "Since hiring Ballistic Agency, our clients have seen on average:"
   metric1:
     label: Increased Conversion Rate
     value: +14%
