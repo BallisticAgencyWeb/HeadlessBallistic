@@ -6,6 +6,8 @@ const PreviewCompatibleImage = ({ imageInfo, classes }) => {
   const imageStyle = { borderRadius: '5px' }
   const { alt = '', childImageSharp, image } = imageInfo
 
+  console.log(imageInfo);
+
   if (!!image && !!image.childImageSharp) {
     return (
       <Img className={classes} style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />

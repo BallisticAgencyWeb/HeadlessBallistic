@@ -28,7 +28,7 @@ collections:
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}

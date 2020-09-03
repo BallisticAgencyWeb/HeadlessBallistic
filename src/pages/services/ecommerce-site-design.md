@@ -1,5 +1,5 @@
 ---
-templateKey: services-post
+templateKey: service-post
 title: eCommerce Site Design
 date: 2020-09-03T16:23:06.569Z
 description: We build websites that not only look great, but perform well in

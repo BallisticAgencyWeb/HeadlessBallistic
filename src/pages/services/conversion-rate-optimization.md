@@ -1,5 +1,5 @@
 ---
-templateKey: services-post
+templateKey: service-post
 title: Conversion Rate Optimization
 date: 2020-09-03T16:16:48.982Z
 description: "\"CRO\" is an all-encompassing term for increasing your website's
