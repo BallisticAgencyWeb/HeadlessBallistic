@@ -196,18 +196,10 @@ export const IndexPageTemplate = ({
                   />
                 </svg>
                 <blockquote className="relative bg-white rounded-lg shadow-lg">
-                  <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-                    <img
-                      src="https://tailwindui.com/img/logos/workcation-color.svg"
-                      alt="Workcation"
-                      className="h-8"
-                    />
-                    <div className="relative text-lg text-gray-700 leading-7 font-medium mt-8">
+                  <div className="rounded-t-lg px-6 py-8 sm:px-10">
+                    <div className="relative text-lg text-gray-700 leading-7 font-medium">
                       <p className="relative">
-                        Tincidunt integer commodo, cursus etiam aliquam neque,
-                        et. Consectetur pretium in volutpat, diam. Montes, magna
-                        cursus nulla feugiat dignissim id lobortis amet. Laoreet
-                        sem est phasellus eu proin massa, lectus.
+                        Other agencies don't know eCommerce, because they don't sell online like we do.
                       </p>
                     </div>
                   </div>
@@ -220,11 +212,11 @@ export const IndexPageTemplate = ({
                       />
                     </div>
                     <span className="text-indigo-300 font-semibold leading-6">
-                      <strong className="text-white font-semibold">
-                        Judith Black
+                      <strong className="text-white font-semibold pr-1">
+                        Jason young 
                       </strong>
                       <br className="sm:hidden" />
-                      CEO at Workcation
+                        CEO at Ballistic Agency
                     </span>
                   </cite>
                 </blockquote>
