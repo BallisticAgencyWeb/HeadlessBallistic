@@ -15,8 +15,8 @@ introcontent:
     higher to give you the most revenue possible. 
 metrics:
   title: The proof is in the pudding.
-  subtitle: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
-    repellat laudantium.
+  subtitle: "Since hiring Ballistic Agency, our clients have seen an average
+    increase of:"
   metric1:
     label: AVG Conversion Rate
     value: +14%
