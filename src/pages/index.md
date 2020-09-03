@@ -26,7 +26,7 @@ metrics:
   metric3:
     label: AVG Revenue
     value: +19.8%
-content: Something something
+content: .
 ---
 
 Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
