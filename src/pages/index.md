@@ -10,7 +10,7 @@ introcontent:
   description: >
     We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008. 
 metrics:
-  title: The proof is in the pudding.
+  title: The proof is in the pudding
   subtitle: "Since hiring Ballistic Agency, our clients have seen on average:"
   metric1:
     label: Increased Conversion Rate
