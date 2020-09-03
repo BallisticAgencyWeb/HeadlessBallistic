@@ -3,9 +3,9 @@ templateKey: index-page
 title: Optimized eCommerce - Ballistic Agency
 mainpitch:
   title: Optimized eCommerce
-  subtitle: Other agencies don't know eCommerce, because they don't sell online like we do.
+  subtitle: We look at data not your fucking opinion.
 introcontent:
-  subtitle: eCommerce
+  subtitle: Services
   title: Why Optimize Your site?
   description: >
     You’ve worked hard to push your eCommerce business beyond $250k/month. We
