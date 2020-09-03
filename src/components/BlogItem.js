@@ -11,19 +11,19 @@ class BlogItem extends React.Component {
 
     return (
       <article>
-        <p class="text-sm leading-5 text-gray-500">{post.frontmatter.date}</p>
+        <p className="text-sm leading-5 text-gray-500">{post.frontmatter.date}</p>
 
-        <Link class="block" to={post.fields.slug}>
-          <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+        <Link className="block" to={post.fields.slug}>
+          <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
             {post.frontmatter.title}
           </h3>
 
-          <p class="mt-3 text-base leading-6 text-gray-500">{post.excerpt}</p>
+          <p className="mt-3 text-base leading-6 text-gray-500">{post.excerpt}</p>
         </Link>
-        <div class="mt-3">
+        <div className="mt-3">
           <Link
             to={post.fields.slug}
-            class="text-base leading-6 font-semibold text-indigo-600 hover:text-indigo-500 transition ease-in-out duration-150"
+            className="text-base leading-6 font-semibold text-ballistic-lightblue hover:text-ballistic-darkblue transition ease-in-out duration-150"
           >
             Read full story
           </Link>

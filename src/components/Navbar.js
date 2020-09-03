@@ -115,7 +115,7 @@ const Navbar = class extends React.Component {
                 <span className="inline-flex rounded-md shadow-sm">
                   <Link
                     to="/contact"
-                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                    className="inline-flex items-center px-4 py-2 text-sm leading-5 font-medium rounded-md tertiary-btn transition ease-in-out duration-150"
                   >
                     Contact
                   </Link>

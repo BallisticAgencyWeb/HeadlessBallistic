@@ -4,6 +4,42 @@
 
 @tailwind utilities;
 
+
+.primary-btn {
+  @apply text-gray-900;
+  @apply bg-ballistic-yellow;
+}
+
+.primary-btn:hover {
+  @apply text-white;
+}
+
+.secondary-btn {
+  @apply text-ballistic-darkblue;
+  @apply bg-white; 
+}
+
+.secondary-btn:hover {
+  @apply text-ballistic-yellow;
+}
+
+.tertiary-btn {
+   @apply text-ballistic-darkblue ;
+   @apply bg-white;
+   @apply border;
+   @apply border-gray-300;
+}
+
+.tertiary-btn:hover {
+  @apply text-ballistic-lightblue;
+}
+
+.tertiary-btn:focus {
+  @apply border-ballistic-darkblue;
+  @apply outline-none;
+  @apply shadow-outline-blue;
+}
+
 /* BigCommerce: Global CSS */
 .u-bc-hidden {
   display: none !important;

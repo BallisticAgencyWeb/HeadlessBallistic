@@ -11,9 +11,9 @@ const AddToCartButton = ({ children, productId, variantId }) => {
       <div className="bc-product__actions" data-js="bc-product-group-actions">
         <div className="bc-form bc-product-form">
           <div className="bc-product-form__product-message"></div>
-          <span class="inline-flex w-full rounded-md shadow-sm">
+          <span className="inline-flex w-full rounded-md shadow-sm">
             <button  
-              class="inline-flex w-full items-center justify-center px-6 py-3  border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+              className="inline-flex w-full items-center justify-center px-6 py-3  border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
               type="submit"
               disabled={addingToCart === productId}
               onClick={() => addToCart(productId, variantId)}>

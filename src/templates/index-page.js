@@ -7,6 +7,7 @@ import Customers from "../components/Customers";
 import Content, { HTMLContent } from "../components/Content";
 import BlogRoll from "../components/BlogRoll";
 import BlogItem from "../components/BlogItem";
+import Wistia from "../components/Wistia";
 
 export const IndexPageTemplate = ({
   mainpitch,
@@ -98,7 +99,7 @@ export const IndexPageTemplate = ({
               <div className="rounded-md shadow">
                 <Link
                   to="/products"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   View Products
                 </Link>
@@ -106,7 +107,7 @@ export const IndexPageTemplate = ({
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <Link
                   to="/about"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md secondary-btn focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   About Us
                 </Link>
@@ -126,7 +127,7 @@ export const IndexPageTemplate = ({
         <div className="py-16 overflow-hidden">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
-              <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+              <p className="text-lg leading-6 text-ballistic-yellow  font-bold tracking-wide uppercase">
                 {introcontent.subtitle}
               </p>
               <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -138,31 +139,8 @@ export const IndexPageTemplate = ({
                 {introcontent.description}
               </p>
             </div>
-            <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
-              <div className="relative z-10 mb-12 lg:mb-0">
-                <div className="mb-10 prose text-gray-500 mx-auto lg:max-w-none">
-                  <HTMLContent content={content} />
-                </div>
-                <div className="flex text-base max-w-prose mx-auto lg:max-w-none">
-                  <div className="rounded-md shadow">
-                    <Link
-                      to="/contact"
-                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out"
-                    >
-                      Contact sales
-                    </Link>
-                  </div>
-                  <div className="rounded-md shadow ml-4">
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out"
-                    >
-                      Learn more
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="relative text-base max-w-prose mx-auto lg:max-w-none">
+            <div className="lg:flex lg:flex-row-reverse">
+              <div className="relative text-base max-w-prose mx-auto lg:max-w-none lg:ml-16">
                 <svg
                   className="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20"
                   width={404}
@@ -195,31 +173,32 @@ export const IndexPageTemplate = ({
                     fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)"
                   />
                 </svg>
-                <blockquote className="relative bg-white rounded-lg shadow-lg">
-                  <div className="rounded-t-lg px-6 py-8 sm:px-10">
-                    <div className="relative text-lg text-gray-700 leading-7 font-medium">
-                      <p className="relative">
-                        Other agencies don't know eCommerce, because they don't sell online like we do.
-                      </p>
-                    </div>
+                <div style={{width: '30rem', maxWidth: '100%'}} className="relative bg-white rounded-lg shadow-lg overflow-hidden mx-w-full lg:mt-8">
+                  <Wistia />
+                </div>
+              </div>
+              <div className="relative z-10 mb-12 lg:mb-0">
+                <div className="mb-10 prose text-gray-500 mx-auto lg:max-w-none">
+                  <HTMLContent content={content} />
+                </div>
+                <div className="flex text-base max-w-prose mx-auto lg:max-w-none">
+                  <div className="rounded-md shadow">
+                    <Link
+                      to="/contact"
+                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out"
+                    >
+                      Contact sales
+                    </Link>
                   </div>
-                  <cite className="flex items-center sm:items-start bg-indigo-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
-                    <div className="rounded-full border-2 border-white mr-4 sm:-mt-15 sm:mr-6">
-                      <img
-                        className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-indigo-300"
-                        src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80"
-                        alt=""
-                      />
-                    </div>
-                    <span className="text-indigo-300 font-semibold leading-6">
-                      <strong className="text-white font-semibold pr-1">
-                        Jason young 
-                      </strong>
-                      <br className="sm:hidden" />
-                        CEO at Ballistic Agency
-                    </span>
-                  </cite>
-                </blockquote>
+                  <div className="rounded-md shadow ml-4">
+                    <a
+                      href="#"
+                      className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md secondary-btn focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out"
+                    >
+                      Learn more
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -227,7 +206,7 @@ export const IndexPageTemplate = ({
       </main>
     </div>
 
-    <div className="bg-gray-800">
+    <div className="bg-ballistic-darkblue">
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
@@ -277,7 +256,7 @@ export const IndexPageTemplate = ({
           <div className="mt-4 flex md:mt-0 md:ml-4">
             <Link
               to="/blog"
-              className="inline-block align-baseline font-bold text-base text-blue-500 hover:text-blue-800"
+              className="inline-block align-baseline font-bold text-base text-ballistic-lightblue hover:text-blue-800"
             >
               View Blog →
             </Link>
@@ -291,7 +270,7 @@ export const IndexPageTemplate = ({
       </main>
     </div>
 
-    <div className="relative bg-gray-800">
+    <div className="relative bg-ballistic-darkblue">
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="w-full h-full object-cover"
