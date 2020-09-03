@@ -6,10 +6,7 @@ import ProductCard from "../components/bigcommerce/ProductCard";
 import PageHeading from "../components/PageHeading";
 
 export const ProductPageTemplate = ({
-  image,
   title,
-  heading,
-  description,
   products,
 }) => (
   <div>
