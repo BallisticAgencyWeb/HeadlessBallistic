@@ -7,7 +7,7 @@ description: "Our strategy is simple: follow their instructions. Google, and
   looking for, and what the best practices are. Which is why our strategy is
   built around using the best platforms and software, and staying up to date
   with Google's algorithm changes."
-wistiaid: 8yvsvxwqkr
+wistiaid: py67gm7e1r
 featuredimage: /img/ba-website_servicesproducts_seo__36443.1583343606.jpg
 ---
 SEO is a competitive business.
