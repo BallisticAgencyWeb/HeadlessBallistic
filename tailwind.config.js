@@ -8,6 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        bayellow: {
+          dark: '#f1b45a',
+          normal: '#f9c78c',
+          light: '#f7d5b0',
+          lighter: '#f4e4d4'
+        },
         ballistic: {
           darkblue: "#2a2e40",
           blue: "#4c5c6e",

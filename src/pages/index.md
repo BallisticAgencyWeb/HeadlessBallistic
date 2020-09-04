@@ -7,6 +7,7 @@ mainpitch:
 introcontent:
   subtitle: Our Process
   title: Facts are better than opinions
+  wistiaid: 8yvsvxwqkr
   description: >
     We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008. 
 metrics:
@@ -21,7 +22,6 @@ metrics:
   metric3:
     label: Increased Revenue
     value: +19.8%
-content: .
 ---
 
 The facts are that most businesses need to improve in three areas.

@@ -4,8 +4,8 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Customers from "../components/Customers";
-import Content, { HTMLContent } from "../components/Content";
-import BlogRoll from "../components/BlogRoll";
+import { HTMLContent } from "../components/Content";
+
 import BlogItem from "../components/BlogItem";
 import Wistia from "../components/Wistia";
 
@@ -98,18 +98,18 @@ export const IndexPageTemplate = ({
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <Link
-                  to="/products"
+                  to="/services"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
-                  View Products
+                  View Services
                 </Link>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <Link
-                  to="/about"
+                  to="/contact"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md secondary-btn focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
-                  About Us
+                  Contact
                 </Link>
               </div>
             </div>
@@ -172,10 +172,10 @@ export const IndexPageTemplate = ({
                   />
                 </svg>
                 <div
-                  style={{ width: "30rem", maxWidth: "100%" }}
+                  style={{ width: "40rem", maxWidth: "100%" }}
                   className="relative bg-white rounded-lg shadow-lg overflow-hidden mx-w-full lg:mt-8"
                 >
-                  <Wistia id="8yvsvxwqkr" />
+                  <Wistia id={introcontent.wistiaid} />
                 </div>
               </div>
               <div className="relative z-10 mb-12 lg:mb-0">
@@ -192,12 +192,12 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                   <div className="rounded-md shadow ml-4">
-                    <a
-                      href="#"
+                    <Link
+                      to="/about"
                       className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md secondary-btn focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out"
                     >
                       Learn more
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -372,6 +372,7 @@ export const pageQuery = graphql`
           subtitle
           title
           description
+          wistiaid
         }
         metrics {
           title
