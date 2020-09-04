@@ -31,7 +31,7 @@ class ServiceItem extends React.Component {
         <div className="mt-3">
           <Link
             to={post.fields.slug}
-            className="text-base leading-6 font-semibold text-ballistic-lightblue hover:text-ballistic-darkblue transition ease-in-out duration-150"
+            className="w-full flex items-center justify-center px-6 py-2 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10"
           >
             Read more
           </Link>

@@ -87,6 +87,12 @@ const Navbar = class extends React.Component {
                 </Link>
                 <Link
                   className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                  to="/services"
+                >
+                  Services
+                </Link>
+                <Link
+                  className="text-lg leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                   to="/blog"
                 >
                   Blog
@@ -721,6 +727,14 @@ To: "opacity-0 scale-95"
                       >
                         <div className="text-base leading-6 font-medium text-gray-900">
                           Products
+                        </div>
+                      </Link>
+                      <Link
+                        to="/services"
+                        className="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
+                      >
+                        <div className="text-base leading-6 font-medium text-gray-900">
+                          Services
                         </div>
                       </Link>
                       <Link
