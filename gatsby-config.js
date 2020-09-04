@@ -3,9 +3,9 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + BigCommerce + Netlify CMS Starter',
+    title: 'Ballisitic Agency',
     description:
-      'This repo contains an example ecommerce website that is built with Gatsby, BigCommerce and Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth for content, BigCommerce for catalog / cart / checkout, and Netlify for continuous deployment.'
+      "We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008."
   },
   plugins: [
     "gatsby-plugin-postcss",

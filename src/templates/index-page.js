@@ -174,7 +174,7 @@ export const IndexPageTemplate = ({
                   />
                 </svg>
                 <div style={{width: '30rem', maxWidth: '100%'}} className="relative bg-white rounded-lg shadow-lg overflow-hidden mx-w-full lg:mt-8">
-                  <Wistia />
+                  <Wistia id="8yvsvxwqkr" />
                 </div>
               </div>
               <div className="relative z-10 mb-12 lg:mb-0">

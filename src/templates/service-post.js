@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import PageHeading from "../components/PageHeading";
+import Wistia from "../components/Wistia";
 
 export const ServicesPostTemplate = ({
   content,
@@ -15,12 +16,12 @@ export const ServicesPostTemplate = ({
   title,
   helmet,
   featuredimage,
+  wistiaid
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <div>
-      <PageHeading title={title} />
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
         {helmet || ""}
 
@@ -35,6 +36,7 @@ export const ServicesPostTemplate = ({
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           <div class="block col-span-2">
+            {wistiaid && <div className="mb-6"><Wistia id={wistiaid} /></div>}
             <PostContent content={content} />
           </div>
           <div className="block col-span-1">
@@ -116,10 +118,13 @@ ServicesPostTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   featuredimage: PropTypes.object,
+  wistiaid: PropTypes.string
 };
 
 const ServicesPost = ({ data }) => {
   const { markdownRemark: post } = data;
+
+  console.log(post);
 
   return (
     <Layout>
@@ -128,6 +133,7 @@ const ServicesPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
+        wistiaid={post.frontmatter.wistiaid}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -160,6 +166,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        wistiaid
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 300, quality: 100) {
