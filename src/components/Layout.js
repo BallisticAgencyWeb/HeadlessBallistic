@@ -47,6 +47,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <script>{`function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;t.src='https://assets.freshsales.io/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://ballisticagency.freshsales.io','3153ee4b05ac647a2623635672a510009c39c47fdccc3ad7c6cf733f4d8b5576',true);}})();`}</script>
+        <link href="https://cdn11.bigcommerce.com/s-b7clv5baib/product_images/Ballistic%20favecon-04.png?t=1587064014" rel="shortcut icon"></link>
       </Helmet>
       <Notify />
       <Navbar />
