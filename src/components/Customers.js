@@ -3,7 +3,7 @@ import React from 'react';
 function Customers() {
 
   return (
-    <div className="bg-white">
+    <div className="bg-ballistic-gray">
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <p className="text-center text-base leading-6 font-semibold uppercase text-gray-600 tracking-wider">
           Trusted by industry leaders:

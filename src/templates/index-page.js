@@ -118,9 +118,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <div className="relative pt-0">
-      <main className="mx-auto max-w-7xl px-4 sm:px-6">
-        <Customers />
-      </main>
+      <Customers />
     </div>
     <div className="relative pt-0">
       <main className="mx-auto">
@@ -173,7 +171,10 @@ export const IndexPageTemplate = ({
                     fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)"
                   />
                 </svg>
-                <div style={{width: '30rem', maxWidth: '100%'}} className="relative bg-white rounded-lg shadow-lg overflow-hidden mx-w-full lg:mt-8">
+                <div
+                  style={{ width: "30rem", maxWidth: "100%" }}
+                  className="relative bg-white rounded-lg shadow-lg overflow-hidden mx-w-full lg:mt-8"
+                >
                   <Wistia id="8yvsvxwqkr" />
                 </div>
               </div>
@@ -218,7 +219,7 @@ export const IndexPageTemplate = ({
         </div>
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
           <div className="flex flex-col">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-ballistic-lightblue">
               {metrics.metric1.label}
             </dt>
             <dd className="order-1 text-5xl leading-none font-extrabold text-white">
@@ -226,7 +227,7 @@ export const IndexPageTemplate = ({
             </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-ballistic-lightblue">
               {metrics.metric2.label}
             </dt>
             <dd className="order-1 text-5xl leading-none font-extrabold text-white">
@@ -234,7 +235,7 @@ export const IndexPageTemplate = ({
             </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0">
-            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-indigo-200">
+            <dt className="order-2 mt-2 text-lg leading-6 font-medium text-ballistic-lightblue">
               {metrics.metric3.label}
             </dt>
             <dd className="order-1 text-5xl leading-none font-extrabold text-white">
@@ -274,7 +275,7 @@ export const IndexPageTemplate = ({
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6875F5&sat=-100&blend-mode=multiply"
+          src="https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           alt="Support team"
         />
       </div>
@@ -287,7 +288,12 @@ export const IndexPageTemplate = ({
             How we understand our clients
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-300">
-            We’re not only an eCommerce agency, we’re a manufacturer that sells our products online. We labor over our search engine rankings, we advertise, we manufacture products and maintain stock levels, we pull inventory, we package and ship products, and we handle payments, returns, refunds, and more. Why? One word: empathy. We wanted to understand our clients so we started doing what they do.
+            We’re not only an eCommerce agency, we’re a manufacturer that sells
+            our products online. We labor over our search engine rankings, we
+            advertise, we manufacture products and maintain stock levels, we
+            pull inventory, we package and ship products, and we handle
+            payments, returns, refunds, and more. Why? One word: empathy. We
+            wanted to understand our clients so we started doing what they do.
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
@@ -319,7 +325,7 @@ IndexPageTemplate.propTypes = {
   introcontent: PropTypes.object,
   posts: PropTypes.object,
   content: PropTypes.string,
-  metrics: PropTypes.object
+  metrics: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {

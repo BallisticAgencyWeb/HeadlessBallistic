@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         ballistic: {
           darkblue: "#2a2e40",
-          lightblue: "#4c5c6e",
+          blue: "#4c5c6e",
+          lightblue: "#77aed6",
           yellow: "#f1b45a",
           tan: "#d9c9b4",
           gray: "#E9EDF1"

@@ -1,25 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export default class Wistia extends React.Component {
-  componentWillMount() {
-    const script1 = document.createElement("script");
-    const script2 = document.createElement("script");
-
-    script1.src = `https://fast.wistia.com/embed/medias/${this.props.id}.jsonp`;
-    script1.async = true;
-
-    script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
-    script2.async = true;
-
-    document.body.appendChild(script1);
-    document.body.appendChild(script2);
-  }
-
   render() {
     return (
-      <div
-        dangerouslySetInnerHTML={{
-          __html: `<div
+      <div>
+        <Helmet>
+          <script src={`https://fast.wistia.com/embed/medias/${this.props.id}.jsonp`} async></script>
+          <script src={`https://fast.wistia.com/assets/external/E-v1.js`} async></script>
+        </Helmet>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<div
               class="wistia_responsive_padding"
               style="padding:56.25% 0 0 0;position:relative;"
             >
@@ -47,8 +39,9 @@ export default class Wistia extends React.Component {
               </div>
             </div>
           `,
-        }}
-      />
+          }}
+        />
+      </div>
     );
   }
 }

@@ -23,7 +23,7 @@ class BlogItem extends React.Component {
         <div className="mt-3">
           <Link
             to={post.fields.slug}
-            className="text-base leading-6 font-semibold text-ballistic-lightblue hover:text-ballistic-darkblue transition ease-in-out duration-150"
+            className="text-base leading-6 font-semibold text-ballistic-blue hover:text-ballistic-darkblue transition ease-in-out duration-150"
           >
             Read full story
           </Link>

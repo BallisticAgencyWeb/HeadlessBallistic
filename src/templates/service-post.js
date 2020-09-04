@@ -69,7 +69,7 @@ export const ServicesPostTemplate = ({
         </div>
         <div className="bg-white">
           <div className="max-w-screen-xl mx-auto pt-8 pb-4">
-            <div className="px-6 py-6 bg-ballistic-darkblue rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+            <div className="px-6 py-6 bg-ballistic-blue rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
               <div className="xl:w-0 xl:flex-1">
                 <h2 className="text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">
                   Want eCommerce news and updates?
