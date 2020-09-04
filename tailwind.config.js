@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -13,6 +15,9 @@ module.exports = {
           tan: "#d9c9b4",
           gray: "#E9EDF1"
         }
+      },
+      fontFamily: {
+        'sans': ["Hind", ...defaultTheme.fontFamily.sans]
       }
     },
   },

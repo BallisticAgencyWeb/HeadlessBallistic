@@ -5,6 +5,13 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+
+body, button, input, textarea {
+  @apply font-sans;
+}
+
 .primary-btn {
   @apply text-gray-900;
   @apply bg-ballistic-yellow;

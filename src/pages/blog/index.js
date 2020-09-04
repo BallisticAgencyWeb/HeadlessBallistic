@@ -15,7 +15,7 @@ export default class BlogIndexPage extends React.Component {
               <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-3xl sm:leading-10">
                 Subscribe
               </h2>
-              <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center">
+              <div className="mt-2 sm:mt-3 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center">
                 <p className="text-xl leading-7 text-gray-500">
                   Get weekly articles in your inbox on eCommerce.
                 </p>
@@ -30,7 +30,7 @@ export default class BlogIndexPage extends React.Component {
                   <span className="ml-3 flex-shrink-0 inline-flex rounded-md shadow-sm">
                     <button
                       type="button"
-                      className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                      className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md  focus:outline-none primary-btn transition ease-in-out duration-150"
                     >
                       Notify me
                     </button>

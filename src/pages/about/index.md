@@ -1,17 +1,15 @@
 ---
 templateKey: about-page
 path: /about
-title: "About Us #3"
+title: "About Us"
 image: /img/bags-commerce-hanging.jpg
 ---
-### Creatively sourced for those that care
-We've searched the world to find products that we feel will not only speak to us, but any individuals that desire a positive outlook in a sustainable way.
 
-### We're adventurers
-Check in and you'll see us focused on an exciting experience that is typically a bold, sometimes risky, undertaking. Our travels have taken us into activities ranging from skydiving to mountain climbing to scuba diving and back.
+## How We Started
 
-### Retail is our therapy
-Taking the scenic route through a city and figuring out what resonates with us is one of our favorite activies. Curation equals relaxation for us. 
+Since 2008, Ballistic Agency has been deeply embedded in the digital presence of our clients, working to increase brand awareness, customer satisfaction, sales, and operational efficiency. We build and optimize the websites of leading mid-market organizations and are their chief problem-solvers for eCommerce advancement. We work very closely with our clients to quickly and methodically execute their specific sales goals using data and discovery to drive the evolution of their web presence.
 
-### We started a while ago
-Our first retail shop was up and running almost 30 years ago!
+## What We Do
+
+Most businesses struggle with their eCommerce website, so we built an expert team that is dedicated to making your website easier to use and generate more revenue, creating peace of mind about the future of your business.
+
