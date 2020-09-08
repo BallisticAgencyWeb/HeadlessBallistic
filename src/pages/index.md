@@ -14,7 +14,7 @@ introcontent:
     is based on data and experience we've obtained by working with busy
     eCommerce sites since 2008. 
 metrics:
-  title: The proof is in the pudding
+  title: Our results speak for themselves
   subtitle: "Since hiring Ballistic Agency, our clients have seen on average:"
   metric1:
     label: Increased Conversion Rate
