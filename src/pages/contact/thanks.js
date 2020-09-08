@@ -3,11 +3,11 @@ import Layout from '../../components/Layout'
 
 export default () => (
   <Layout>
-    <section className="section">
-      <div className="container">
+    <section>
+      <div className="mx-auto max-w-7xl p-4 sm:p-6 lg:p-8">
         <div className="content">
           <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+          <p>A member from our team will be reaching out shortly.</p>
         </div>
       </div>
     </section>
