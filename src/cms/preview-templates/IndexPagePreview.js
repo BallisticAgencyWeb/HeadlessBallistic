@@ -12,6 +12,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         introcontent={data.introcontent || {}}
         metrics={data.metrics || {}}
         content={data.content}
+        bottom={data.bottom || {}}
       />
     )
   } else {
