@@ -139,16 +139,16 @@ const Footer = class extends React.Component {
                 The latest news, articles, and resources, sent to your inbox
                 weekly.
               </p>
-              <form className="mt-4 sm:flex sm:max-w-md">
+              <form className="mt-4 sm:flex sm:max-w-md omnisend-subscribe-form">
                 <input
                   aria-label="Email address"
                   type="email"
                   required
-                  className="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                  className="omnisend-subscribe-input-email appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
                   placeholder="Enter your email"
                 />
                 <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                  <button className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out">
+                  <button type="submit" className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out">
                     Subscribe
                   </button>
                 </div>

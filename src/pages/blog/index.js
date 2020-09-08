@@ -19,17 +19,17 @@ export default class BlogIndexPage extends React.Component {
                 <p className="text-xl leading-7 text-gray-500">
                   Get weekly articles in your inbox on eCommerce.
                 </p>
-                <form className="mt-6 flex lg:mt-0 lg:justify-end">
+                <form className="omnisend-subscribe-form mt-6 flex lg:mt-0 lg:justify-end">
                   <input
                     aria-label="Email address"
                     type="email"
                     required
-                    className="appearance-none w-full px-4 py-2 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out lg:max-w-xs"
+                    className="omnisend-subscribe-input-email appearance-none w-full px-4 py-2 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out lg:max-w-xs"
                     placeholder="Enter your email"
                   />
                   <span className="ml-3 flex-shrink-0 inline-flex rounded-md shadow-sm">
                     <button
-                      type="button"
+                      type="submit"
                       className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md  focus:outline-none primary-btn transition ease-in-out duration-150"
                     >
                       Notify me
