@@ -3,7 +3,7 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: 'Ballisitic Agency',
+    title: 'Ballistic Agency',
     description:
       "We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008."
   },
