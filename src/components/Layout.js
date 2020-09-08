@@ -30,7 +30,10 @@ const TemplateWrapper = ({ children }) => {
           href="https://cdn11.bigcommerce.com/s-b7clv5baib/product_images/Ballistic%20favecon-04.png?t=1587064014"
           rel="shortcut icon"
         ></link>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142758470-1"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-142758470-1"
+        ></script>
         <script>{`
           <!-- Global site tag (gtag.js) - Google Analytics -->
           window.dataLayer = window.dataLayer || [];
@@ -38,6 +41,12 @@ const TemplateWrapper = ({ children }) => {
           gtag('js', new Date());
 
           gtag('config', 'UA-142758470-1');
+        `}</script>
+        <script type="text/javascript">{`
+          window.omnisend = window.omnisend || [];
+          omnisend.push(["accountID", "5f5797e999f0b70fa4baa156"]);
+          omnisend.push(["track", "$pageViewed"]);
+          !function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://omnisrc.com/inshop/launcher-v2.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}();
         `}</script>
       </Helmet>
       <Notify />
