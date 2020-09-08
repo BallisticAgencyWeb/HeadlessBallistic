@@ -47,8 +47,9 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
           - {label: IntroContent, name: introcontent, widget: object, fields: [{label: Subtitle, name: subtitle, widget: text},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text},{label: Wistia Video Id, name: wistiaid, widget: string}]}
-          - {label: Metrics, name: metrics, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
           - {label: "Content", name: "content", widget: "markdown"}
+          - {label: Metrics, name: metrics, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
+          - {label: Bottom CTA, name: bottom, widget: object, fields: [{label: Subtitle, name: subtitle, widget: text},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

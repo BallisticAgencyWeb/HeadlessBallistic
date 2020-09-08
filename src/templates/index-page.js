@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   metrics,
   content,
   posts,
+  bottom
 }) => (
   <div>
     <div className="relative bg-gray-50 overflow-hidden">
@@ -282,18 +283,13 @@ export const IndexPageTemplate = ({
       <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
-            Empathy works
+            {bottom.subtitle}
           </div>
           <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
-            How we understand our clients
+            {bottom.title}
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-300">
-            We’re not only an eCommerce agency, we’re a manufacturer that sells
-            our products online. We labor over our search engine rankings, we
-            advertise, we manufacture products and maintain stock levels, we
-            pull inventory, we package and ship products, and we handle
-            payments, returns, refunds, and more. Why? One word: empathy. We
-            wanted to understand our clients so we started doing what they do.
+            {bottom.description}
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
@@ -326,6 +322,7 @@ IndexPageTemplate.propTypes = {
   posts: PropTypes.object,
   content: PropTypes.string,
   metrics: PropTypes.object,
+  bottom: PropTypes.object
 };
 
 const IndexPage = ({ data }) => {
@@ -340,6 +337,7 @@ const IndexPage = ({ data }) => {
         metrics={frontmatter.metrics}
         content={html}
         posts={data.allMarkdownRemark.edges}
+        bottom={frontmatter.bottom}
       />
     </Layout>
   );
@@ -389,6 +387,11 @@ export const pageQuery = graphql`
             label
             value
           }
+        }
+        bottom {
+          subtitle
+          title
+          description
         }
       }
     }

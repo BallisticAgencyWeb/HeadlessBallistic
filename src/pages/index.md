@@ -25,6 +25,16 @@ metrics:
   metric3:
     label: Increased Revenue
     value: +19.8%
+bottom:
+  subtitle: Empathy works
+  title: How we understand our clients
+  description: >
+    We’re not only an eCommerce agency, we’re a manufacturer that sells
+    our products online. We labor over our search engine rankings, we
+    advertise, we manufacture products and maintain stock levels, we
+    pull inventory, we package and ship products, and we handle
+    payments, returns, refunds, and more. Why? One word: empathy. We
+    wanted to understand our clients so we started doing what they do.
 content: >-
   The facts are that most businesses need to improve in three areas.
 
