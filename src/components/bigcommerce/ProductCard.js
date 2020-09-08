@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import AddToCartButton from "./AddToCartButton";
 import ProductPrices from "./ProductPrices";
 
 class ProductCard extends React.Component {
