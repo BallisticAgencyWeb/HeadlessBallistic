@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ballistic Agency',
     description:
-      "We’ve built an agency around our Optimized eCommerce™ process that uses facts, not opinions, to grow your business. Everything we do and recommend is based on data and experience we've obtained by working with busy eCommerce sites since 2008."
+      "Our Optimized eCommerce™ process uses facts, NOT opinions, to grow your business using data we've obtained by working with busy eCommerce sites since 2008."
   },
   plugins: [
     "gatsby-plugin-postcss",
