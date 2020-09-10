@@ -68,7 +68,7 @@ export const BigCommercePageTemplate = ({
                 <div className="mt-10">
                   <Link
                     className="w-full max-w-xs m-auto flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md primary-btn transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                    href="/services"
+                    to="/services"
                   >
                     Get in touch
                   </Link>
