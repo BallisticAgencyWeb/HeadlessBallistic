@@ -1,21 +1,29 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { BigCommercePageTemplate } from '../../templates/bigcommerce-page'
+import React from "react";
+import PropTypes from "prop-types";
+import { BigCommercePageTemplate } from "../../templates/bigcommerce-page";
 
-const BigCommercePagePreview = ({ entry, widgetFor }) => (
-  <BigCommercePageTemplate
-    mainpitch={entry.getIn(['data', 'mainpitch'])}
-    intro={entry.getIn(['data', 'intro'])}
-    contact={entry.getIn(['data', 'contact'])}
-    content={widgetFor('body')}
-  />
-)
+const BigCommercePagePreview = ({ entry, widgetFor }) => {
+  const data = entry.getIn(["data"]).toJS();
+
+  if (data) {
+    return (
+      <BigCommercePageTemplate
+        mainpitch={data.mainpitch || {}}
+        introcontent={data.intro || {}}
+        metrics={data.contact || {}}
+        content={widgetFor("body")}
+      />
+    )
+  } else {
+    return <div>Loading...</div>
+  }
+};
 
 BigCommercePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
-}
+};
 
-export default BigCommercePagePreview
+export default BigCommercePagePreview;
