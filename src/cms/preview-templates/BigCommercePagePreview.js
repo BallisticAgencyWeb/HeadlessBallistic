@@ -9,9 +9,9 @@ const BigCommercePagePreview = ({ entry, widgetFor }) => {
     return (
       <BigCommercePageTemplate
         mainpitch={data.mainpitch || {}}
-        introcontent={data.intro || {}}
+        intro={data.intro || {}}
         metrics={data.contact || {}}
-        // content={widgetFor("body")}
+        content={widgetFor("body")}
       />
     )
   } else {
