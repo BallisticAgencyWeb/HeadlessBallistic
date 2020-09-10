@@ -13,7 +13,6 @@ export const BigCommercePageTemplate = ({
   contact,
   content,
 }) => {
-
   return (
     <div>
       <section>
@@ -195,13 +194,13 @@ BigCommercePageTemplate.propTypes = {
 
 const BigCommercePage = ({ data }) => {
   const { markdownRemark } = data;
-
+  
   return (
     <Layout>
       <BigCommercePageTemplate
         mainpitch={markdownRemark.frontmatter.mainpitch}
         intro={markdownRemark.frontmatter.intro}
-        content={markdownRemark.frontmatter.content}
+        content={markdownRemark.html}
         contact={markdownRemark.frontmatter.contact}
       />
     </Layout>
