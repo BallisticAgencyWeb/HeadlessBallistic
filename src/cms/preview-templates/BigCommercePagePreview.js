@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AboutPageTemplate } from '../../templates/about-page'
+import { BigCommercePageTemplate } from '../../templates/bigcommerce-page'
 
 const BigCommercePagePreview = ({ entry, widgetFor }) => (
-  <AboutPageTemplate
+  <BigCommercePageTemplate
     mainpitch={entry.getIn(['data', 'mainpitch'])}
     intro={entry.getIn(['data', 'intro'])}
     contact={entry.getIn(['data', 'contact'])}
