@@ -152,14 +152,14 @@ export const BigCommercePageTemplate = ({
                   />
                 </div>
               </div>
-              <div className="relative mt-12 sm:mt-16 lg:mt-24">
+              <div className="relative mt-16 sm:mt-24 lg:mt-40">
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-                  <div className="lg:col-start-2">
+                  <div className="lg:col-start-1 mt-10 relative lg:mt-0">
                     <p className="mt-3 text-lg leading-7 text-gray-500">
                       <HTMLContent content={contact} />
                     </p>
                   </div>
-                  <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+                  <div className="lg:col-start-2">
                     <svg
                       className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                       width={784}
