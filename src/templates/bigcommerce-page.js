@@ -89,7 +89,7 @@ export const BigCommercePageTemplate = ({
                   </p>
 
                   <p className="mt-3 text-base leading-7 text-gray-500">
-                    {content}
+                    <HTMLContent content={content} />
                   </p>
 
                   <div className="flex text-base max-w-prose mx-auto lg:max-w-none mt-6">
@@ -156,7 +156,7 @@ export const BigCommercePageTemplate = ({
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                   <div className="lg:col-start-2">
                     <p className="mt-3 text-lg leading-7 text-gray-500">
-                      {contact}
+                      <HTMLContent content={contact} />
                     </p>
                   </div>
                   <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
