@@ -11,7 +11,7 @@ const BigCommercePagePreview = ({ entry, widgetFor }) => {
         mainpitch={data.mainpitch || {}}
         intro={data.intro || {}}
         contact={data.contact || {}}
-        content={data.content || {}}
+        content={widgetFor('body')}
       />
     )
   } else {
