@@ -159,41 +159,9 @@ export const BigCommercePageTemplate = ({
                       <HTMLContent content={contact} />
                     </p>
                   </div>
-                  <div className="lg:col-start-2">
-                    <svg
-                      className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
-                      width={784}
-                      height={404}
-                      fill="none"
-                      viewBox="0 0 784 404"
-                    >
-                      <defs>
-                        <pattern
-                          id="e80155a9-dfde-425a-b5ea-1f6fadd20131"
-                          x={0}
-                          y={0}
-                          width={20}
-                          height={20}
-                          patternUnits="userSpaceOnUse"
-                        >
-                          <rect
-                            x={0}
-                            y={0}
-                            width={4}
-                            height={4}
-                            className="text-gray-200"
-                            fill="currentColor"
-                          />
-                        </pattern>
-                      </defs>
-                      <rect
-                        width={784}
-                        height={404}
-                        fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-                      />
-                    </svg>
+                  <div className="mt-16 lg:mt-0 lg:col-start-2">
                     <div className="max-w-lg">
-                      <div className="px-6">
+                      <div className="sm:px-6">
                         <p className="text-lg leading-6 text-ballistic-yellow  font-bold tracking-wide uppercase">
                           Contact
                         </p>
