@@ -87,9 +87,9 @@ export const BigCommercePageTemplate = ({
                     {intro.description}
                   </p>
 
-                  <p className="mt-3 text-base leading-7 text-gray-500">
-                    <HTMLContent content={content} />
-                  </p>
+                  
+                  <HTMLContent content={content} />
+                
 
                   <div className="flex text-base max-w-prose mx-auto lg:max-w-none mt-6">
                     <div className="rounded-md shadow">
@@ -194,7 +194,7 @@ BigCommercePageTemplate.propTypes = {
 
 const BigCommercePage = ({ data }) => {
   const { markdownRemark } = data;
-  
+
   return (
     <Layout>
       <BigCommercePageTemplate
