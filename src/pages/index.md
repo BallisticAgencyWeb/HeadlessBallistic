@@ -13,6 +13,21 @@ introcontent:
     facts, not opinions, to grow your business. Everything we do and recommend
     is based on data and experience we've obtained by working with busy
     eCommerce sites since 2008. 
+content: >-
+  The facts are that most businesses need to improve in three areas.
+
+
+  1. Conversion rate optimization (CRO). CRO makes sure that your customers that are on your website can find what they're looking for, make a purchasing decision, and go all the way through the checkout process without having any problems. We want to make that as easy and painless as possible.
+
+  2. SEO, or search engine optimization. that is where we make your site more visible on search engines like Google. Most websites are seeing 60, 70, and even 80% of their website traffic coming from Google and other search engines.
+
+  3. Email marketing. Believe it or not, email marketing is still huge in the e-commerce world. It's one of the most profitable ways to get your customers to come back and make another purchase. But it's so much more than just uploading a pretty picture to Mailchimp and hitting send. It's more about relevance, sending the right email to the right people at the right time, segmentation, deliverability, and personalization.
+
+
+  \## We’re here to help
+
+
+  You’ve worked hard to get your eCommerce business to where you are today. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher for maximum revenue.
 metrics:
   title: Our results speak for themselves
   subtitle: "Since hiring Ballistic Agency, our clients have seen on average:"
@@ -29,33 +44,12 @@ bottom:
   subtitle: Empathy works
   title: How we understand our clients
   description: >
-    We’re not only an eCommerce agency, we’re a manufacturer that sells
-    our products online. We labor over our search engine rankings, we
-    advertise, we manufacture products and maintain stock levels, we
-    pull inventory, we package and ship products, and we handle
-    payments, returns, refunds, and more. Why? One word: empathy. We
-    wanted to understand our clients so we started doing what they do.
-content: >-
-  The facts are that most businesses need to improve in three areas.
-
-
-  1. Conversion rate optimization (CRO). CRO makes sure that your customers that are on your website can find what they're looking for, make a purchasing decision, and go all the way through the checkout process without having any problems. We want to make that as easy and painless as possible.
-
-
-  2. SEO, or search engine optimization. that is where we make your site more visible on search engines like Google. Most websites are seeing 60, 70, and even 80% of their website traffic coming from Google and other search engines.
-
-
-  3. Email marketing. Believe it or not, email marketing is still huge in the e-commerce world. It's one of the most profitable ways to get your customers to come back and make another purchase. But it's so much more than just uploading a pretty picture to Mailchimp and hitting send. It's more about relevance, sending the right email to the right people at the right time, segmentation, deliverability, and personalization.
-
-
-
-
-  \## We’re here to help
-
-
-
-
-  You’ve worked hard to get your eCommerce business to where you are today. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher for maximum revenue.
+    We’re not only an eCommerce agency, we’re a manufacturer that sells our
+    products online. We labor over our search engine rankings, we advertise, we
+    manufacture products and maintain stock levels, we pull inventory, we
+    package and ship products, and we handle payments, returns, refunds, and
+    more. Why? One word: empathy. We wanted to understand our clients so we
+    started doing what they do.
 ---
 
 The facts are that most businesses need to improve in three areas.
