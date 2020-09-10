@@ -8,11 +8,11 @@ mainpitch:
 intro:
   subtitle: Trust
   title: Why choose Ballistic Agency
-description: >
-  If you're looking for something a little more custom, need
-  integration with an existing system like Quickbooks, SAP, or
-  another application, or you have thousands of products and
-  years of data to migrate, you need a web design agency.
+  description: >
+    If you're looking for something a little more custom, need
+    integration with an existing system like Quickbooks, SAP, or
+    another application, or you have thousands of products and
+    years of data to migrate, you need a web design agency.
 contact: >
   If you're looking for something a little more custom, need
   integration with an existing system like Quickbooks, SAP, or
