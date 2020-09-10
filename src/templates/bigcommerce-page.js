@@ -201,8 +201,8 @@ const BigCommercePage = ({ data }) => {
       <BigCommercePageTemplate
         mainpitch={markdownRemark.frontmatter.mainpitch}
         intro={markdownRemark.frontmatter.intro}
+        content={markdownRemark.frontmatter.content}
         contact={markdownRemark.frontmatter.contact}
-        content={markdownRemark.html}
       />
     </Layout>
   );
@@ -229,6 +229,7 @@ export const bigcommercePageQuery = graphql`
           description
         }
         contact
+        content
       }
     }
   }

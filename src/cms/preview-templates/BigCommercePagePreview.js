@@ -10,8 +10,8 @@ const BigCommercePagePreview = ({ entry, widgetFor }) => {
       <BigCommercePageTemplate
         mainpitch={data.mainpitch || {}}
         intro={data.intro || {}}
-        metrics={data.contact || {}}
-        content={widgetFor("body")}
+        contact={data.contact || {}}
+        content={data.content || {}}
       />
     )
   } else {
