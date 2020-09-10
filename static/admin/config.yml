@@ -63,3 +63,12 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
           - {label: Title, name: title, widget: string}
+      - file: "src/pages/bigcommerce/index.md"
+        label: "BigCommerce"
+        name: "bigcommerce"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "bigcommerce-page"}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Subtitle, name: subtitle, widget: text},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contact Area", name: "contact", widget: "markdown"}

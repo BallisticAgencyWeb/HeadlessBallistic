@@ -39,10 +39,10 @@ const Navbar = class extends React.Component {
       <div className="z-20 relative bg-white">
         <div className="relative z-10 shadow">
           <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
-            <div>
-              <Link to="/" className="flex">
+            <div >
+              <Link to="/">
                 <img
-                  className="h-10 w-auto sm:h-16"
+                  className="h-full max-h-10 w-auto sm:max-h-16"
                   src="https://cdn11.bigcommerce.com/s-b7clv5baib/images/stencil/500x100/ballistic-02_1582926268__09978.original.png"
                   alt="Workflow"
                 />
