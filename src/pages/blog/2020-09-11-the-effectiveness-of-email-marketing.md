@@ -7,6 +7,7 @@ description: With the rise of social media, it was a widespread belief that
   face of robust social media campaigns. What actually happened is much
   different. Email Marketing had to adapt.
 featuredimage: /img/ba_effectiveemailmarketing-slides-01.jpg
+wistiaid: w5h1hgfgo9
 tags:
   - email marketing
 ---
