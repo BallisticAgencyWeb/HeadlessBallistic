@@ -11,7 +11,7 @@ wistiaid: w5h1hgfgo9
 tags:
   - email marketing
 ---
-With the rise of social media, it was a widespread belief that email marketing had seen its peak, and was going to become obsolete in the face of robust social media campaigns. What actually happened is much different. Email Marketing had to adapt. It had to become more personalized, more appealing to the customer, and get straight to the point. This is great because, with the flood of emails that each person gets to their inbox, you can't afford to be ignored, marked as read, or moved to spam. This is forcing a great thing to happen. It means you are going to have to provide VALUE in your emails.
+It had to become more personalized, more appealing to the customer, and get straight to the point. This is great because, with the flood of emails that each person gets to their inbox, you can't afford to be ignored, marked as read, or moved to spam. This is forcing a great thing to happen. It means you are going to have to provide VALUE in your emails.
 
 What do I mean by Value? There are several ways to provide value to your customers with email marketing. There are abandoned cart emails, discount offers, personalized emails, segmented campaigns, and many more opportunities that are being offered by different platforms every day to provide value for your shoppers. As a result, email marketing is providing enormous value to companies who are willing to invest in it.
 
