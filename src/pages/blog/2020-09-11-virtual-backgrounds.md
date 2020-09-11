@@ -6,19 +6,12 @@ description: Enhance your next virtual meeting with a custom-designed
   background. We tried to provide everything from professional to fun and
   energetic. Enjoy!
 featuredimage: /img/ba_sm-virtualbackground-colorprofile.jpg
+wistiaid: https://fast.wistia.com/embed/medias/qfhe12l8ai/swatch
 tags:
   - virtual meeting
   - backgrounds
   - downloadable zoom backgrounds
 ---
-<p data-children-count="0">
-</p>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/nVjpmoVfla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-children-count="0">
-</iframe>
-<p data-children-count="0">
-</p>
-<p data-children-count="0">
-</p>
 <p data-children-count="0">
 	Enhance your next virtual meeting with a custom-designed background. We tried to provide everything from professional to fun and energetic. Enjoy!
 </p>
