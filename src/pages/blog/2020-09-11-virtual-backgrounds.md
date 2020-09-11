@@ -6,7 +6,7 @@ description: Enhance your next virtual meeting with a custom-designed
   background. We tried to provide everything from professional to fun and
   energetic. Enjoy!
 featuredimage: /img/ba_sm-virtualbackground-colorprofile.jpg
-wistiaid: https://fast.wistia.com/embed/medias/qfhe12l8ai/swatch
+wistiaid: qfhe12l8ai
 tags:
   - virtual meeting
   - backgrounds
