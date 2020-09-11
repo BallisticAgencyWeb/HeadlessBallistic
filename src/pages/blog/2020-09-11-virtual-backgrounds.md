@@ -13,9 +13,6 @@ tags:
   - downloadable zoom backgrounds
 ---
 <p data-children-count="0">
-	Enhance your next virtual meeting with a custom-designed background. We tried to provide everything from professional to fun and energetic. Enjoy!
-</p>
-<p data-children-count="0">
 </p>
 <table data-children-count="0">
 <tbody>
