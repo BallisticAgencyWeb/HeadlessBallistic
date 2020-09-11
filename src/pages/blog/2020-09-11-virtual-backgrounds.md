@@ -37,64 +37,64 @@ tags:
 	</td>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-virtualbackground-office-space.jpg">
+			<img src="/img/BA_VirtualBackground_Office-Space.jpg">
 		</p>
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-virtualbackground-office-space.jpg" target="_blank">Download Here</a>
-		</p>
-	</td>
-</tr>
-<tr>
-	<td style="padding: 10px; width:50%; Height: auto;">
-		<p>
-			<img src="/product_images/uploaded_images/ba-sm-brickwall.jpg">
-		</p>
-		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-brickwall.jpg" target="_blank">Download Here</a>
-		</p>
-	</td>
-	<td style="padding: 10px; width:50%; Height: auto;">
-		<p>
-			<img src="/product_images/uploaded_images/ba-sm-space.jpg">
-		</p>
-		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-space.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/BA_VirtualBackground_Office-Space.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 </tr>
 <tr>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-outofview.jpg">
+			<img src="/img/BA_SM-VirtualBackground-ColorProfile.jpg">
 		</p>
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-outofview.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/BA_SM-VirtualBackground-ColorProfile.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-geo.jpg">
+			<img src="/img/BA_SM-Space.jpg">
 		</p>
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-geo.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/BA_SM-Space.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 </tr>
 <tr>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-bluesky.jpg">
+			<img src="/img/BA_SM-VirtualBackground-OutOfView.jpg">
 		</p>
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-bluesky.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/BA_SM-VirtualBackground-OutOfView.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-tread.jpg">
+			<img src="/img/ba_sm-virtualbackground-geo.jpg">
 		</p>
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-tread.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/ba_sm-virtualbackground-geo.jpg" target="_blank">Download Here</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td style="padding: 10px; width:50%; Height: auto;">
+		<p>
+			<img src="/img/ba_sm-virtualbackground-bluesky.jpg">
+		</p>
+		<p>
+			<a href="https://ballisticagency.com/img/ba_sm-virtualbackground-bluesky.jpg" target="_blank">Download Here</a>
+		</p>
+	</td>
+	<td style="padding: 10px; width:50%; Height: auto;">
+		<p>
+			<img src="/img/ba_sm-virtualbackground-tread.jpg">
+		</p>
+		<p>
+			<a href="https://ballisticagency.com/img/ba_sm-virtualbackground-tread.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 </tr>
