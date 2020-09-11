@@ -31,6 +31,10 @@ tags:
 		<p>
 			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-colorprofile.jpg">
 		</p>
+
+![Brick Wall Background](/img/ba_sm-brickwall.jpg "Brick Wall Background")
+
+
 		<p>
 			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-colorprofile.jpg" target="_blank">Download Here</a>
 		</p>
