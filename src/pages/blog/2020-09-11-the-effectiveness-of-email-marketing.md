@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: The Effectiveness of Email Marketing
-date: 2020-09-11T18:58:27.047Z
+date: 2020-08-25T18:58:27.047Z
 description: With the rise of social media, it was a widespread belief that
   email marketing had seen its peak, and was going to become obsolete in the
   face of robust social media campaigns. What actually happened is much
