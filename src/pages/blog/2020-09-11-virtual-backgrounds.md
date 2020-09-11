@@ -29,14 +29,10 @@ tags:
 <tr>
 	<td style="padding: 10px; width:50%; Height: auto;">
 		<p>
-			<img src="/product_images/uploaded_images/ba-sm-virtualbackground-colorprofile.jpg">
+			<img src="/img/ba_sm-brickwall.jpg">
 		</p>
-
-![Brick Wall Background](/img/ba_sm-brickwall.jpg "Brick Wall Background")
-
-
 		<p>
-			<a href="https://ballisticagency.com/product_images/uploaded_images/ba-sm-virtualbackground-colorprofile.jpg" target="_blank">Download Here</a>
+			<a href="https://ballisticagency.com/img/ba_sm-brickwall.jpg" target="_blank">Download Here</a>
 		</p>
 	</td>
 	<td style="padding: 10px; width:50%; Height: auto;">
