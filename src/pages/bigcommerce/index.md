@@ -13,10 +13,15 @@ intro:
     thousands of products and years of data to migrate, you need a web design
     agency.
 contact: >
-  If you're looking for something a little more custom, need integration with an
-  existing system like Quickbooks, SAP, or another application, or you have
-  thousands of products and years of data to migrate, you need a web design
-  agency.
+  Since 2008, Ballistic Agency has been the driving force for innovative new
+  brands and industry leaders alike who want to beat the competition and get
+  started on their next growth phase. 
+
+  <br />
+
+  <br />
+
+  If you're ready to unlock the power of Optimized eCommerce™ for your business, schedule your free consultation today.
 ---
 
 It's never been easier to build an eCommerce website for yourself. Going with
