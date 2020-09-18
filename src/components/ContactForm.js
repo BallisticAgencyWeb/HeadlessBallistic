@@ -19,6 +19,13 @@ export default class ContactForm extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault()
+    if(window.freshsales) {
+      window.freshsales.trackEvent({
+        email: this.state.email,
+        title: 'Contact Us Filled Out'
+      }, 'Contact Us Filled Out');
+
+    }
     const form = e.target
     fetch('/', {
       method: 'POST',
