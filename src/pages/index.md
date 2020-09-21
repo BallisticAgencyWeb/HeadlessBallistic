@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Optimized eCommerce - Ballistic Agency
 mainpitch:
-  title: Optimized eCommerce
+  title: Optimized eCommerce™
   subtitle: We know what you need, and it's not another opinion.
 introcontent:
   subtitle: Our Process
