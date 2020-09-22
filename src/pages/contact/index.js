@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import ContactForm from '../../components/ContactForm';
+import PageHeading from '../../components/PageHeading';
 
 
 
@@ -12,10 +13,10 @@ export default class Index extends React.Component {
         <div className="container is-fluid">
           <section className="section">
             <div className="container">
-              <h2 className="title has-text-centered">Contact Us</h2>
+              <PageHeading title="Contact" />
               <div className="columns">
                 <div className="column is-6">
-                  <img src="/img/architecture-blur.jpg" alt="" style={{borderRadius: "6px"}} />
+                  <img className="rounded-md shadow-xl" src="https://images.unsplash.com/photo-1517520688650-28eb9304f326?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=628&q=80" alt="" />
                 </div>
                 <div className="column is-5 is-offset-1">
                   <div className="container">

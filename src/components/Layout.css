@@ -1,5 +1,18 @@
 @tailwind base;
 
+.content ul {
+  list-style-type: disc;
+  padding-left: theme('padding.4');
+}
+
+.content ol {
+  padding-left: theme('padding.4');
+}
+
+.content p {
+  @apply text-base;
+}
+
 @tailwind components;
 
 @tailwind utilities;

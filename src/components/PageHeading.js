@@ -1,8 +1,10 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 function PageHeading(props) {
   return (
     <div className="p-6 bg-ballistic-gray">
+      <Helmet title={`${props.title} | Ballistic Agency`}  />
       <div className="max-w-7xl mx-auto">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex-1 min-w-0">
