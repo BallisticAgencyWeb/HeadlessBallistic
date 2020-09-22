@@ -127,6 +127,14 @@ const Footer = class extends React.Component {
                         Conversion Rate Optimization
                       </Link>
                     </li>
+                    <li className="mt-4">
+                      <Link
+                        to="/bigcommerce"
+                        className="text-base leading-6 text-gray-300 hover:text-white"
+                      >
+                        BigCommerce Partners
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
