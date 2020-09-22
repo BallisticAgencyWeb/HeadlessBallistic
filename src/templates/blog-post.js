@@ -39,9 +39,9 @@ export const BlogPostTemplate = ({
                 <h4 className='text-xl leading-9 font-extrabold tracking-tight sm:text-2xl'>
                   Tags
                 </h4>
-                <ul className='list-none m-0 p-0 mt-2 flex'>
+                <ul className='list-none m-0 p-0 '>
                   {tags.map((tag) => (
-                    <li className="mr-2" key={tag + `tag`}>
+                    <li className="mr-2 mt-2 float-left" key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>
                         <span className='inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800'>
                           <svg
