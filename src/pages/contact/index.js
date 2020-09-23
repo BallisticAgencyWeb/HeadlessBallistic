@@ -11,7 +11,7 @@ export default class Index extends React.Component {
           <h1 className='text-2xl text-center font-bold text-gray-900 sm:text-5xl sm:leading-snug sm:truncate my-5 sm:my-10'>
             Contact
           </h1>
-          <div className='sm:flex'>
+          <div className='sm:flex items-start'>
             <div className='hidden sm:flex w-full mt-8'>
               <img
                 className='rounded-md shadow-xl'
