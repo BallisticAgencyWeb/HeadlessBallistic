@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: How Manufacturers Can Successfully Sell Directly to Their Consumers
+title: Problems We Find and How to Fix Manufacturer Websites
 date: 2020-09-23T20:21:58.394Z
 description: "Most small and medium manufacturers are run by great people that
   have developed a unique product through years of hard work, research, and
