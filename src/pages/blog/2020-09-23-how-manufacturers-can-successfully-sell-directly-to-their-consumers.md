@@ -9,7 +9,7 @@ description: "Most small and medium manufacturers are run by great people that
 featuredimage: /img/ba_blog-featuredimage.jpg
 tags:
   - eCommerce
-  - manufactorers
+  - Manufacturer
   - website design
 ---
 Most small and medium manufacturers are run by great people that have developed a unique product through years of hard work, research, and development. However, we find common issues when working with new clients in the manufacturing space that keep them from capitalizing on their hard work.\
