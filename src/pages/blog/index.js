@@ -17,7 +17,7 @@ export default class BlogIndexPage extends React.Component {
               </h2>
               <div className="mt-2 sm:mt-3 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center">
                 <p className="text-xl leading-7 text-gray-500">
-                  Get weekly articles in your inbox on eCommerce.
+                  Get articles in your inbox on eCommerce.
                 </p>
                 <form className="omnisend-subscribe-form mt-6 flex lg:mt-0 lg:justify-end">
                   <input

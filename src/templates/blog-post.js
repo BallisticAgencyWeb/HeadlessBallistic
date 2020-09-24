@@ -28,10 +28,11 @@ export const BlogPostTemplate = ({
                 <Wistia id={wistiaid} />
               </div>
             )}
-            <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
-              {title}
-            </h1>
-            <div className='content'>
+            
+            <div className='content prose sm:prose-lg md:prose-xl'>
+              <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
+                {title}
+              </h1>
               <PostContent content={content} />
             </div>
             {tags && tags.length ? (
