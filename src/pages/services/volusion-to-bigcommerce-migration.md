@@ -9,7 +9,7 @@ We are waiving our product migration fee!
 
 For a limited time, we will migrate your Volusion product data to BigCommerce for free. We know that it is more important than ever to migrate off of Volusion and onto a better eCommerce platform, so we're here to help.
 
-Our Volusion to BigCommerce Migration Service includes:
+**Our Volusion to BigCommerce Migration Service includes:**
 
 Product Data Migration (Free until 09/30)\
 New Website Design\
@@ -21,6 +21,5 @@ Customer Reviews Migration\
 Content Pages/Blog Migration\
 Payment Provider Migration\
 Shipping Services Migration\
-Inventory Sync
-
+Inventory Sync\
 Anything that you need to successfully migrate to BigCommerce!
