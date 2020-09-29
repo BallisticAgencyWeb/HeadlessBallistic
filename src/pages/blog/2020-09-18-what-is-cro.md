@@ -8,7 +8,9 @@ featuredimage: /img/ba_blog_whatiscro.jpg
 tags:
   - Conversion Rate Optimization
 ---
-Before you can understand the definition of Conversion Rate Optimization, we need to define the word *conversion.* **A** **conversion is the completion of a goal you've chosen for your website visitors.** For many eCommerce website owners, a conversion is when a shopper makes a purchase. A conversion could also be subscribing to an email newsletter, downloading a case study, filling out a form, requesting more information, starting an online chat, or making a phone call.
+
+
+![](https://bc3-production-assets-cdn.basecamp-static.com/4259254/people/BAhpBHo3nwE=--e6ec4c9b3f12ac8fa0b8e4bec4a9074b569d76fa/avatar?v=1 "Aaron Blackmon")
 
 
 
@@ -28,10 +30,10 @@ Now that you've defined your goals, let's look at the conversion rate. **The con
 
 
 
-**Example:** Through the CRO monitoring process, we might determine that Product A is selling at twice the rate of Product B. To the untrained eye, there is no drastic difference between Product A and B that would cause A to be significantly more popular. Similarly, the product page design is the same. This scenario requires analysis and possibly A/B testing to determine how to increase the conversion rate on Product B. We discover that potential purchasers of Product B are abandoning the sales funnel in the checkout process, specifically after the shipping address has been entered. Cart abandonment analysis uncovers a misconfiguration. The shipping cost for Product B is significantly higher than Product A and is reducing the conversion rate. This misconfiguration has been in effect for over three months. Estimates for the increase in revenue based on website traffic, order value, and assumed conversion rate is around $33,000 over the next three months.
+**Example:** Through the CRO monitoring process, we might determine that Product A is selling at twice the rate of Product B. To the untrained eye, there is no drastic difference between Product A and B that would cause A to be significantly more popular. Similarly, the product page design is the same. This scenario requires analysis and possibly A/B testing to determine how to increase the conversion rate on Product B. We discover that potential purchasers of Product B are abandoning the sales funnel in the checkout process, specifically after the shipping address has been entered. Cart abandonment analysis uncovers a misconfiguration. The shipping cost for Product B is significantly higher than Product A and is reducing the conversion rate. This misconfiguration has been in effect for over three months. Estimates for the increase in revenue based on website traffic, order value, and assumed conversion rate is around $33,000 over the next three months.\
+\
+**Why is your conversion rate important?** Simply put, increasing your conversion rate increases your profit without increasing your other expenses, such as marketing and pay per click advertising.
 
 
 
 To speak to a CRO pro and learn more about hiring an agency to manage your Conversion Rate Optimization, contact us here.
-
-![](https://bc3-production-assets-cdn.basecamp-static.com/4259254/people/BAhpBHo3nwE=--e6ec4c9b3f12ac8fa0b8e4bec4a9074b569d76fa/avatar?v=1 "Aaron Blackmon")
