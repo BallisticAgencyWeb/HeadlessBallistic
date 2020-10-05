@@ -11,11 +11,7 @@ tags:
 ---
 Improving your email marketing has to do with improving your open rates and your click-through rates, both of which will enhance revenue. Think about it, moving your click-through rates even from 2.7% to 3% for an audience of 100,000 strong means 300 more customers per email campaign are arriving at your website. A great way to move those needles is through A/B testing.
 
-
-
 A/B testing, in the email marketing sense, is the process of sending one variation of an email to a portion of your audience and another variation another portion of your audience to determine which yields the better results. Once a winning variation is declared, it is sent to the remainder of your subscribers.
-
-
 
 Let's look at why this is such an excellent method of increasing the results of email marketing.
 
@@ -23,8 +19,6 @@ Let's look at why this is such an excellent method of increasing the results of 
 * 2nd is because in that same study, Litmus found that brands who do take advantage of A/B Testing earn 20% more than ones that don't.
 * 3rd is that A/B testing can help you uncover high-impact changes.
 * And finally, A/B testing takes the opinion out of the decision-making process. It gives you real data to move forward with.
-
-
 
 Ok, so you're on board with A/B Testing. Excellent! There are many ways you can test your emails. Elements You'll want to consider are;
 
@@ -41,8 +35,6 @@ Ok, so you're on board with A/B Testing. Excellent! There are many ways you can 
 
 The possibilities on what you can test are vast, and the more you test, the better insight you will have on your subscribers. Remember, this is all about bringing value to that PERSON's inbox.
 
-
-
 Hopefully, now you have a better picture of not only what A/B testing is, but what it can do for you.
 
 * It all starts with a hypothesis.
@@ -53,6 +45,4 @@ Hopefully, now you have a better picture of not only what A/B testing is, but wh
 * Did the winner yield the conversions you wanted?
 * Be sure to record those analytics and share them with your team so that everyone can improve together.
 
-
-
-Are you interested in seeing how A/B Testing can improve your email marketing with Ballistic Agency? Contact us to speak with an email marketing pro we'd love to help you optimize your eCommerce.
+Are you interested in seeing how A/B Testing can improve your email marketing with Ballistic Agency? [Contact us](https://ballisticagency.com/contact) to speak with an email marketing pro we'd love to help you optimize your eCommerce.
