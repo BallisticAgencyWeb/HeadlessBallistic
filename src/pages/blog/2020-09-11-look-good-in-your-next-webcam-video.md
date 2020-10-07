@@ -13,6 +13,8 @@ tags:
   - Virtual Meeting
   - Working Remote
 ---
+How many times have you glanced down to view yourself on a webcam interview, conference call, or chat and thought, wow that’s terrible!
+
 This has become a more prevalent way of doing business and communicating while during this time of quarantine. By default a webcam isn’t very flattering so we want to provide a few tips on how you can look a little bit better on camera!
 
 ## **Meet Your Eye-line**
