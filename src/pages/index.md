@@ -1,4 +1,3 @@
----
 templateKey: index-page
 title: Optimized eCommerce - Ballistic Agency
 mainpitch:
@@ -47,9 +46,12 @@ bottom:
   subtitle: Empathy works
   title: How we understand our clients
   description: >
-    We’re not only an eCommerce agency; we’re a small manufacturer that sells
-    our products online. Why? Empathy. We wanted to understand our clients, so
-    we started doing what they do.
+    We’re not only an eCommerce agency, we’re a manufacturer that sells our
+    products online. We labor over our search engine rankings, we advertise, we
+    manufacture products and maintain stock levels, we pull inventory, we
+    package and ship products, and we handle payments, returns, refunds, and
+    more. Why? One word: empathy. We wanted to understand our clients so we
+    started doing what they do.
 ---
 
 The facts are that most businesses need to improve in three areas.
@@ -61,4 +63,3 @@ The facts are that most businesses need to improve in three areas.
 ## We’re here to help
 
 You’ve worked hard to get your eCommerce business to where you are today. We will work just as hard to help you overcome the roadblocks you might not be anticipating. We will bring more shoppers to your website, increase the percentage of people that buy from you, and push your average order value higher for maximum revenue.
-
