@@ -13,15 +13,30 @@ collections:
     delete: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Wistia Video Id", name: "wistiaid", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: "Featured Post",
+          name: "featuredpost",
+          widget: "boolean",
+          required: false,
+        }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - {
+          label: "Wistia Video Id",
+          name: "wistiaid",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
   - name: "services"
     label: "Services"
     folder: "src/pages/services"
@@ -29,13 +44,28 @@ collections:
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Wistia Video Id", name: "wistiaid", widget: "string", required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "service-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - {
+          label: "Wistia Video Id",
+          name: "wistiaid",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "secondary-pages"
     label: "Secondary Pages"
     folder: "src/pages/secondary"
@@ -43,12 +73,27 @@ collections:
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "secondary-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-      - {label: "Wistia Video Id", name: "wistiaid", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "secondary-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: "Featured Image",
+          name: "featuredimage",
+          widget: image,
+          required: false,
+        }
+      - {
+          label: "Wistia Video Id",
+          name: "wistiaid",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Primary Pages"
     files:
@@ -56,32 +101,110 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
-          - {label: IntroContent, name: introcontent, widget: object, fields: [{label: Subtitle, name: subtitle, widget: text},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text},{label: Wistia Video Id, name: wistiaid, widget: string}]}
-          - {label: "Content", name: "content", widget: "markdown"}
-          - {label: Metrics, name: metrics, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: text}]}
-          - {label: Bottom CTA, name: bottom, widget: object, fields: [{label: Subtitle, name: subtitle, widget: text},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - {
+              label: Mainpitch,
+              name: mainpitch,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Subtitle, name: subtitle, widget: text },
+                ],
+            }
+          - {
+              label: IntroContent,
+              name: introcontent,
+              widget: object,
+              fields:
+                [
+                  { label: Subtitle, name: subtitle, widget: text },
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                  { label: Wistia Video Id, name: wistiaid, widget: string },
+                ],
+            }
+          - { label: "Content", name: "body", widget: "markdown" }
+          - {
+              label: Metrics,
+              name: metrics,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Subtitle, name: subtitle, widget: text },
+                ],
+            }
+          - {
+              label: Bottom CTA,
+              name: bottom,
+              widget: object,
+              fields:
+                [
+                  { label: Subtitle, name: subtitle, widget: text },
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "product-page",
+            }
+          - { label: Title, name: title, widget: string }
       - file: "src/pages/bigcommerce/index.md"
         label: "BigCommerce"
         name: "bigcommerce"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "bigcommerce-page"}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: string}]}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Subtitle, name: subtitle, widget: string},{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: "Content", name: "body", widget: "markdown"}
-          - {label: "Contact Area", name: "contact", widget: "text"}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "bigcommerce-page",
+            }
+          - {
+              label: Mainpitch,
+              name: mainpitch,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Subtitle, name: subtitle, widget: string },
+                ],
+            }
+          - {
+              label: Intro,
+              name: intro,
+              widget: object,
+              fields:
+                [
+                  { label: Subtitle, name: subtitle, widget: string },
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
+          - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Contact Area", name: "contact", widget: "text" }
